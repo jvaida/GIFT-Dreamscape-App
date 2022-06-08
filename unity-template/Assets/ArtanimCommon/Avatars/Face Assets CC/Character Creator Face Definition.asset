@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 993cb3101c7016a48a0ed32360d8eae5, type: 3}
+  m_Name: Character Creator Face Definition
+  m_EditorClassIdentifier: 
+  JawOpenAxis: {x: 0, y: 0, z: -1}
+  JawLeftRightAxis: {x: 0, y: -1, z: 0}
+  JawMaxOpenAngle: 20
+  JawMaxLeftRightAngle: 5
+  EyeForward: {x: 1, y: 0, z: 0}
+  HorizontalAngle: 40
+  VerticalAngle: 10
+  EyeMotionSpeed: 20
+  EnableRandomEyeMotion: 1
+  RandomEyeMotionTimeRange: {x: 1, y: 4}
+  RandomEyeMaxAngle: 5
+  EnableHotspotRandomEyeMotion: 1
+  RandomEyeMotionHotspotTimeRange: {x: 4, y: 8}
+  RandomEyeMotionDurationHotspotTimeRange: {x: 1, y: 2}
+  RandomEyeMaxAngleHotspot: 10
+  EnableEyeBlinking: 1
+  BlinkTimeRange: {x: 3, y: 10}
+  DoubleBlinkChancePercent: 10
+  EyeBlinkingFaceState: {fileID: 11400000, guid: da602366f65b83c45939331c69a212e7,
+    type: 2}
+  VisemeWeightScale: 1.5
+  LipSyncSmoothAmount: 65
+  SmoothingWeight: 0.5
+  SilAsset: {fileID: 11400000, guid: b692d2e904586ba4aa793bb35e000106, type: 2}
+  PPAsset: {fileID: 11400000, guid: 8c58b4f423f5065429745c4d1249c6c8, type: 2}
+  FFAsset: {fileID: 11400000, guid: 4b8a471dbf3f15a4495a368dadfd038c, type: 2}
+  THAsset: {fileID: 11400000, guid: 01507998c388b554fa73389635f4a485, type: 2}
+  DDAsset: {fileID: 11400000, guid: 5fd1271fad00df7428687bb667da597d, type: 2}
+  kkAsset: {fileID: 11400000, guid: c46960bb5d5d4f14f9f21930d1e0353c, type: 2}
+  CHAsset: {fileID: 11400000, guid: e2fedc8da7adc4e4689a7cb52b7290f5, type: 2}
+  SSAsset: {fileID: 11400000, guid: ef45e2dcec2096f4c9c479c437e64885, type: 2}
+  NnAsset: {fileID: 11400000, guid: c89a6c9112df03342a131a528c7870c5, type: 2}
+  RRAsset: {fileID: 11400000, guid: b1e24fcf9a8e0fe41ab19946e57f2106, type: 2}
+  AaAsset: {fileID: 11400000, guid: 7196cfb44bcbeb34f9d7e13d53602917, type: 2}
+  EAsset: {fileID: 11400000, guid: 277a89c215482274295cdc44646bff05, type: 2}
+  IhAsset: {fileID: 11400000, guid: 0ef289eadc7a56241aea7ca168884cfd, type: 2}
+  OhAsset: {fileID: 11400000, guid: 1eeca300116a7f045afcd5400fdaebd6, type: 2}
+  OuAsset: {fileID: 11400000, guid: 0e28d6a37db9f824b9ac677c95ed9734, type: 2}
+  EnableRandomFaceStatesDuringLipsync: 1
+  RandomFaceStatesTimeRange: {x: 0.5, y: 2}
+  RandomFaceStateDuringLipSync:
+  - {fileID: 11400000, guid: 947fc26862e78704997fcfbd33590ae1, type: 2}
+  - {fileID: 11400000, guid: e5f1f454daab44f469f3c0fc1289eeca, type: 2}
+  - {fileID: 11400000, guid: 68a801efb87f73c4db9afeadcc6271bd, type: 2}

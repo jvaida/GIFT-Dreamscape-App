@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: ea889ca85cace8b4ea8a2134c4fac376
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ASC051dSolid
+    100002: ASC051dSolid 1
+    100004: ASC051dSolid 10
+    100006: ASC051dSolid 11
+    100008: ASC051dSolid 12
+    100010: ASC051dSolid 13
+    100012: ASC051dSolid 14
+    100014: ASC051dSolid 15
+    100016: ASC051dSolid 16
+    100018: ASC051dSolid 17
+    100020: ASC051dSolid 18
+    100022: ASC051dSolid 19
+    100024: ASC051dSolid 2
+    100026: ASC051dSolid 3
+    100028: ASC051dSolid 4
+    100030: ASC051dSolid 5
+    100032: ASC051dSolid 6
+    100034: ASC051dSolid 7
+    100036: ASC051dSolid 8
+    100038: ASC051dSolid 9
+    100040: //RootNode
+    100042: Circle_Bar_01
+    100044: Circle_Bar_02
+    100046: Circle_Bar_03
+    100048: Circle_Bar_04
+    100050: Circle_Bar_05
+    100052: Circle_Bar_06
+    100054: AZ_Circle_Railings
+    400000: ASC051dSolid
+    400002: ASC051dSolid 1
+    400004: ASC051dSolid 10
+    400006: ASC051dSolid 11
+    400008: ASC051dSolid 12
+    400010: ASC051dSolid 13
+    400012: ASC051dSolid 14
+    400014: ASC051dSolid 15
+    400016: ASC051dSolid 16
+    400018: ASC051dSolid 17
+    400020: ASC051dSolid 18
+    400022: ASC051dSolid 19
+    400024: ASC051dSolid 2
+    400026: ASC051dSolid 3
+    400028: ASC051dSolid 4
+    400030: ASC051dSolid 5
+    400032: ASC051dSolid 6
+    400034: ASC051dSolid 7
+    400036: ASC051dSolid 8
+    400038: ASC051dSolid 9
+    400040: //RootNode
+    400042: Circle_Bar_01
+    400044: Circle_Bar_02
+    400046: Circle_Bar_03
+    400048: Circle_Bar_04
+    400050: Circle_Bar_05
+    400052: Circle_Bar_06
+    400054: AZ_Circle_Railings
+    2100000: lambert2
+    2300000: ASC051dSolid
+    2300002: ASC051dSolid 1
+    2300004: ASC051dSolid 10
+    2300006: ASC051dSolid 11
+    2300008: ASC051dSolid 12
+    2300010: ASC051dSolid 13
+    2300012: ASC051dSolid 14
+    2300014: ASC051dSolid 15
+    2300016: ASC051dSolid 16
+    2300018: ASC051dSolid 17
+    2300020: ASC051dSolid 18
+    2300022: ASC051dSolid 19
+    2300024: ASC051dSolid 2
+    2300026: ASC051dSolid 3
+    2300028: ASC051dSolid 4
+    2300030: ASC051dSolid 5
+    2300032: ASC051dSolid 6
+    2300034: ASC051dSolid 7
+    2300036: ASC051dSolid 8
+    2300038: ASC051dSolid 9
+    2300040: Circle_Bar_01
+    2300042: Circle_Bar_02
+    2300044: Circle_Bar_03
+    2300046: Circle_Bar_04
+    2300048: Circle_Bar_05
+    2300050: Circle_Bar_06
+    3300000: ASC051dSolid
+    3300002: ASC051dSolid 1
+    3300004: ASC051dSolid 10
+    3300006: ASC051dSolid 11
+    3300008: ASC051dSolid 12
+    3300010: ASC051dSolid 13
+    3300012: ASC051dSolid 14
+    3300014: ASC051dSolid 15
+    3300016: ASC051dSolid 16
+    3300018: ASC051dSolid 17
+    3300020: ASC051dSolid 18
+    3300022: ASC051dSolid 19
+    3300024: ASC051dSolid 2
+    3300026: ASC051dSolid 3
+    3300028: ASC051dSolid 4
+    3300030: ASC051dSolid 5
+    3300032: ASC051dSolid 6
+    3300034: ASC051dSolid 7
+    3300036: ASC051dSolid 8
+    3300038: ASC051dSolid 9
+    3300040: Circle_Bar_01
+    3300042: Circle_Bar_02
+    3300044: Circle_Bar_03
+    3300046: Circle_Bar_04
+    3300048: Circle_Bar_05
+    3300050: Circle_Bar_06
+    4300000: ASC051dSolid
+    4300002: ASC051dSolid
+    4300004: ASC051dSolid
+    4300006: ASC051dSolid
+    4300008: ASC051dSolid
+    4300010: ASC051dSolid
+    4300012: ASC051dSolid
+    4300014: ASC051dSolid
+    4300016: ASC051dSolid
+    4300018: ASC051dSolid
+    4300020: ASC051dSolid
+    4300022: ASC051dSolid
+    4300024: ASC051dSolid
+    4300026: ASC051dSolid
+    4300028: ASC051dSolid
+    4300030: ASC051dSolid
+    4300032: ASC051dSolid
+    4300034: ASC051dSolid
+    4300036: ASC051dSolid
+    4300038: ASC051dSolid
+    4300040: Circle_Bar_01
+    4300042: Circle_Bar_02
+    4300044: Circle_Bar_03
+    4300046: Circle_Bar_04
+    4300048: Circle_Bar_05
+    4300050: Circle_Bar_06
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

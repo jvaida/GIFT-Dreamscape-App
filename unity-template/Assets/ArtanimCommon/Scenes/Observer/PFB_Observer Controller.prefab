@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &113302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 496922}
+  m_Layer: 0
+  m_Name: Avatars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &175294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 417866}
+  - component: {fileID: 11404560}
+  - component: {fileID: 114000013791069856}
+  - component: {fileID: 114344675905030034}
+  - component: {fileID: 114000011338867932}
+  - component: {fileID: 114584355507040076}
+  - component: {fileID: 114278363918368770}
+  - component: {fileID: 114297292702020488}
+  - component: {fileID: 114943165691650724}
+  - component: {fileID: 114770920036940908}
+  - component: {fileID: 114005567559677478}
+  - component: {fileID: 114621697721849934}
+  - component: {fileID: 114258207460877088}
+  m_Layer: 0
+  m_Name: PFB_Observer Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 496922}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &496922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417866}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11404560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d618a4aef42c1744aa35ca78290fa540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasUI: {fileID: 0}
+  TextExperienceName: {fileID: 0}
+  TextComponentType: {fileID: 0}
+  TextNetworkInfo: {fileID: 0}
+  TextSharedDataName: {fileID: 0}
+  TextNetworkGUID: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175294}
+  m_IsPrefabParent: 1
+--- !u!114 &114000011338867932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976941fbacb241e4ea2f7c416a4be5a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConnectionInfo: {fileID: 0}
+  DefaultRigidBody: {fileID: 0}
+  SkeletonRigidbody: {fileID: 0}
+  RigidBodyRoot: {fileID: 0}
+  ToggleRigidbodiesList: {fileID: 0}
+  PanelRigidBodiesList: {fileID: 0}
+  TextRigidbodiesList: {fileID: 0}
+  CreateRigidBodyVisuals: 1
+  CreateSkeletonRigidBodyVisuals: 0
+  UsePDC: 0
+--- !u!114 &114000013791069856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c3227b1a07584a98efffe1dfc05a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DropdownSessions: {fileID: 0}
+  DropdownViews: {fileID: 0}
+  HideUIWhenInactive: 1
+  UIHideTime: 3
+  UILayers:
+    serializedVersion: 2
+    m_Bits: 4292870121
+--- !u!114 &114005567559677478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bace90d5059f5eb41b4c19ccbb923559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114258207460877088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59b5fd7b6a18314f88cd045ace88512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandAnimationColliders: []
+--- !u!114 &114278363918368770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e5af9749ca45140b553d466b80aab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumRegistrations: 0
+--- !u!114 &114297292702020488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5c6bebf44a3364ea05f5bea8c437ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConnectStatus: 0
+  ChannelName: 
+  NickName: 
+  DefaultTSAudioSourceTemplate: {fileID: 0}
+--- !u!114 &114344675905030034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea23863b255d7b47a8b0a67ce2683de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConstructScene: Construct Scene
+  AvatarsRoot: {fileID: 496922}
+  TextSessionId: {fileID: 0}
+  TextStatus: {fileID: 0}
+  ToggleAudio: {fileID: 0}
+  StandaloneControllerTemplate: {fileID: 0}
+--- !u!114 &114584355507040076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0658e9470a417459c3b30e8058dc6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114621697721849934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586ba5635109a484a828a3fd74e03d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncMode: 0
+  TriggerActions:
+  - TriggerName: ToggleServerView
+    Action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114000013791069856}
+          m_MethodName: DoSwitchToObserver
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+--- !u!114 &114770920036940908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20b78f692e6ef2499231ceeb10cb841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114943165691650724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4144b43efaa34418d57e1118bef308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameSessionDebugPanel: {fileID: 0}

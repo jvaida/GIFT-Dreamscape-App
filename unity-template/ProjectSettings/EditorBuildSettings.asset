@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Main Scene.unity
+    guid: bd47098bf0340f84fbe6d6ae5f300f9f
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Emergency Scene/Emergency Scene.unity
+    guid: cebbe7c54909eb54dbc58d1e19b9bf6c
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Main Menu/Main Menu Scene.unity
+    guid: cc948512f06885947a0e9ce0880e45d0
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Experience Controller/Experience Controller
+      Scene.unity
+    guid: 1a146c64769669e44b560492d9410d45
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Observer/Experience Observer Scene.unity
+    guid: 367d92a38b7a4b741a9884c62455bfff
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Construct/Construct Scene.unity
+    guid: 0cb556a08ddb7e84fbbc0b0284a43b32
+  - enabled: 1
+    path: Assets/DreamscapeCommon/Haptic_DMX/Haptic test scene.unity
+    guid: e5809a861916c574f931c9cf1171c46e
+  - enabled: 1
+    path: Assets/ArtanimCommon/Scenes/Experience Setup/Experience Setup Scene.unity
+    guid: 45d7c70a6a2997a47841506cecf60050
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75cd6239edf980a49af6ab36ce3f5d20,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5b7344fc17897f646bbe2ca3e9d2e1dc,
+      type: 2}

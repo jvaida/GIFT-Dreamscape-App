@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6399ae8c3cf63439a53d67a7e09563, type: 3}
+  m_Name: vis_ee
+  m_EditorClassIdentifier: 
+  BlendShapeValues:
+  - Name: Affricate
+    Value: 0
+  - Name: Brow_Drop_L
+    Value: 0
+  - Name: Brow_Drop_R
+    Value: 0
+  - Name: Brow_Raise_Inner_L
+    Value: 0
+  - Name: Brow_Raise_Inner_R
+    Value: 0
+  - Name: Brow_Raise_L
+    Value: 0
+  - Name: Brow_Raise_Outer_L
+    Value: 0
+  - Name: Brow_Raise_Outer_R
+    Value: 0
+  - Name: Brow_Raise_R
+    Value: 0
+  - Name: Cheek_Blow_L
+    Value: 0
+  - Name: Cheek_Blow_R
+    Value: 0
+  - Name: Cheek_Raise_L
+    Value: 0
+  - Name: Cheek_Raise_R
+    Value: 0
+  - Name: Cheek_Suck
+    Value: 0
+  - Name: Dental_Lip
+    Value: 0
+  - Name: Explosive
+    Value: 0
+  - Name: Eye_Blink
+    Value: 0
+  - Name: Eye_Blink_L
+    Value: 0
+  - Name: Eye_Blink_R
+    Value: 0
+  - Name: Eye_Squint_L
+    Value: 0
+  - Name: Eye_Squint_R
+    Value: 0
+  - Name: Eye_Wide_L
+    Value: 0
+  - Name: Eye_Wide_R
+    Value: 0
+  - Name: Lip_Open
+    Value: 0
+  - Name: Mouth_Blow
+    Value: 0
+  - Name: Mouth_Bottom_Lip_Bite
+    Value: 0
+  - Name: Mouth_Bottom_Lip_Down
+    Value: 0.232
+  - Name: Mouth_Bottom_Lip_Trans
+    Value: 0
+  - Name: Mouth_Bottom_Lip_Under
+    Value: 0
+  - Name: Mouth_Dimple_L
+    Value: 0
+  - Name: Mouth_Dimple_R
+    Value: 0
+  - Name: Mouth_Down
+    Value: 0
+  - Name: Mouth_Frown
+    Value: 0
+  - Name: Mouth_Frown_L
+    Value: 0
+  - Name: Mouth_Frown_R
+    Value: 0
+  - Name: Mouth_L
+    Value: 0
+  - Name: Mouth_Lips_Jaw_Adjust
+    Value: 0
+  - Name: Mouth_Lips_Open
+    Value: 0
+  - Name: Mouth_Lips_Part
+    Value: 0
+  - Name: Mouth_Lips_Tight
+    Value: 0
+  - Name: Mouth_Lips_Tuck
+    Value: 0
+  - Name: Mouth_Open
+    Value: 0
+  - Name: Mouth_Plosive
+    Value: 0
+  - Name: Mouth_Pucker
+    Value: 0
+  - Name: Mouth_Pucker_Open
+    Value: 0
+  - Name: Mouth_R
+    Value: 0
+  - Name: Mouth_Skewer
+    Value: 0
+  - Name: Mouth_Smile
+    Value: 0
+  - Name: Mouth_Smile_L
+    Value: 0
+  - Name: Mouth_Smile_R
+    Value: 0
+  - Name: Mouth_Snarl_Lower_L
+    Value: 0
+  - Name: Mouth_Snarl_Lower_R
+    Value: 0
+  - Name: Mouth_Snarl_Upper_L
+    Value: 0
+  - Name: Mouth_Snarl_Upper_R
+    Value: 0
+  - Name: Mouth_Top_Lip_Under
+    Value: 0
+  - Name: Mouth_Top_Lip_Up
+    Value: 0.408
+  - Name: Mouth_Up
+    Value: 0
+  - Name: Mouth_Widen
+    Value: 0
+  - Name: Mouth_Widen_Sides
+    Value: 0.25
+  - Name: Nose_Flank_Raise_L
+    Value: 0
+  - Name: Nose_Flank_Raise_R
+    Value: 0
+  - Name: Nose_Flanks_Raise
+    Value: 0
+  - Name: Nose_Nostrils_Flare
+    Value: 0
+  - Name: Nose_Scrunch
+    Value: 0
+  - Name: Open
+    Value: 0
+  - Name: Tight
+    Value: 0
+  - Name: Tight-O
+    Value: 0
+  - Name: Tongue_Curl-D
+    Value: 0
+  - Name: Tongue_Curl-U
+    Value: 0
+  - Name: Tongue_Lower
+    Value: 0
+  - Name: Tongue_Narrow
+    Value: 0
+  - Name: Tongue_Out
+    Value: 0
+  - Name: Tongue_Raise
+    Value: 0.237
+  - Name: Tongue_up
+    Value: 0
+  - Name: Wide
+    Value: 0
+  JawOpen: 0.193
+  JawLeftRight: 0
+  LifeCycle: 1
+  TransitionSecs: 0.5
+  TransitionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

@@ -1,0 +1,2 @@
+Imported files from: TeamSpeak_SDK_3.0.4_2017_03_23_Unity3D_5.unitypackage
+Downloaded from: http://teamspeak.com/downloads.html#sdk

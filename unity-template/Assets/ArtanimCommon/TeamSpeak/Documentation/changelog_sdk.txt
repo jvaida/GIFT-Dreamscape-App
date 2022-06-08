@@ -1,0 +1,143 @@
+=============================================================
+      TeamSpeak 3 - Software Development Kit Changelog
+             Copyright TeamSpeak Systems GmbH
+                 http://www.teamspeak.com
+=============================================================
+           + Added feature or noticable improvement
+           - Bug fix or something removed
+           * Changed or Information
+           ! Important - Take note!
+=============================================================
+
+=== SDK Release 3.0.4 27 Feb 2016
++ Added IPv6 support
++ Added ts3client_startConnectionWithChannelID to clientlib to allow specifying the default channel
+  as ID
++ Added get/set channel/client variables as uint64 to serverlib
++ Added 64 bit platform support for android
++ Added a new server API call "ts3server_createVirtualServer2" that will create one virtual server
+  with all the required channels configured in one call. See the documentation for more details,
+  and our new server_creation_params example
++ Added new logtarget LogType_SYSLOG. Does not work on Windows. Logs to system syslog facility.
++ Added TEST_MODE_VOICE_LOCAL_AND_REMOTE status for ts3client_setLocalTestMode. In this mode, the
+  client hears both its own input, and the sound of remote clients.
+* public_errors.h now defines the error codes as enums, instead of const unsigned int, to make it
+  easier to include this file in c projects
+* Reimplemented file transfer code
+* ts3client_getTransferFilePath and ts3client_getTransferFileRemotePath do now not return a
+  trailing '/' character
+! Starting this release we have a new directory structure. For all platforms the shared libraries
+  (dll/so/dylib) are in bin directry, and static libraries (.lib/.a) are in lib directory
+! Starting this release we have dropped the platform suffix for the ts3client and ts3server
+  libraries. For example ts3client_win32.dll and ts3client_win64.dll are now both called
+  ts3client.dll and are located in different directories
+! 3.0.4 will be the last sdk supporting windows xp
+- Lots of other internal improvements that came from TeamSpeak 3.1 client and 3.0.13 server
+
+=== SDK Release 3.0.3.2 29 Jun 2015
+- Fixed issue with offline licenses
+- Fixed utf8 conversion issues with invalid utf8 strings
+- Fixed windows audio session backend error reporting issues
+
+=== SDK Release 3.0.3.1 24 Apr 2015
+! Fixed critical bug causing SDK license not being accepted
+- Fixed missing build number on FreeBSD server
+
+=== SDK Release 3.0.3 30 Mar 2015
+! Callbacks in the client are now asynchronous
++ Added Opus voice codec
++ Added SecuritySalt/SecurityHash mechanism. Note this makes 3.0.3 and 3.0.2
+  clients/servers incompatible.
++ Server can disable selected client commands
++ Added callbacks for lots of server function to enable custom permissions
++ Added custom password checks.
++ Added new CHANNEL_DELETE_DELAY param for server side channel creation
++ Added filetransfer support
++ Mobile SDKs (Android, iOS) are now included in the TeamSpeak SDK package
++ Android: Added x86 support
++ iOS: Added armv7s and arm64 to device and x86_64 to simulator
++ iOS: Changed std lib from libstdc++ to libc++
+* Updated example projects to Visual Studio 2013
+
+=== SDK Release 3.0.2 15 May 2012
++ Added function calls for communication with a provisioning server, which is
+  only available in special scenarios on request
+- onUpdateClientEvent callback now passes an invoker block for the cases where
+  a client was updated by somebody else than himself
+- numerous bug fixes and performance improvements
+
+=== SDK Release 3.0.1 14 Sep 2011
++ Update Client Example to include recording of playback data to *.wav file.
+- Fix bug that led to the channelSpeakerArray in audio callbacks to contain
+  the wrong value
+- Fix bug that could lead to client crashes in channels with a
+  latency_factor of 2 or higher
+
+
+=== SDK Release 3.0.0 05 Aug 2011
+! New sound system added. The fmod libraries needed previously are no longer
+  required to be deployed. Instead the client side now requires a
+  "soundbackends" folder with a few platform dependent sound backends.
+! The ts3client_initClientLib function now requires an additional parameter: A
+  path where to find the "soundbackends" folder.
+! The 3.0.0 SDK server requires 3.0.0 SDK clients, and vice versa. You should
+  not mix older (-betaX) builds with 3.0.0 or higher builds.
+* Most sound related function calls have changed, since the "modeID" now a
+  string instead of an integer
+* Voice data packet encryption is now configurable to save CPU on huge servers,
+  see the "VIRTUALSERVER_CODEC_ENCRYPTION_MODE" setting to set it.
+* Reduced CPU usage on the server side, especially for large servers
+* requestChannel(Un)subscribe now takes an array of {client,channel}IDs instead
+  of only one ID.
++ Added callbacks that allow you to view and change sound data as it passes
+  through the playback and capture chain. This allows great flexibility:
+  Recording Audio at various stages, applying sound effects or filters are just
+  some of the new possibilities.
++ Echo cancellation added
++ Added "CustomDevice" functions that allow you to implement capture and
+  playback your own way, you will need to feed in audio (capture) and retrieve
+  audio (playback) regularly. See new custom device example for details.
++ Added ability to playback wave files
+- numerous bug fixes and performance improvements
+
+=== SDK Release 3.0.0-beta6 02 Jul 2010
+- Fix bug in sdk server that had disabled the talk status callbacks
+- Fix bug that lead to some normal channel based chatting not reaching all
+  clients in the channel
+
+=== SDK Release 3.0.0-beta5 10 Jun 2010
+! The beta5 sdk server requires beta5 sdk clients, and the beta5 sdk client
+  requires a beta5 sdk server. You should not mix older sdk builds with beta5
+  builds.
+- Greatly improved the whispering code. It is now possible to whisper to
+  clients that do not have you in view. Also note that you need to explicitly
+  allow any incoming whispers, use the new allowWhispersFrom function (possibly
+  from within the onIgnoredWhisperEvent callback)
+- onTalkStatusChangeEvent now has a isReceivedWhisper parameter telling you if
+  this is a whisper message or regular non whisper communication.
+- Channel Codec now has an additional parameter, the codec latency factor. The
+  default is 1, which results in the same behavior as pre beta5. Higher values
+  lead to less voice packets sent per second meaning higher delay but less
+  bandwidth usage.
+- server side onTextMessageEvent callback split into two callbacks, one for
+  messages to the server, one for messages to a channel
+- numerous bug fixes and performance improvements
+
+!skipped beta4
+
+=== SDK Release 3.0.0-beta3 27 Jan 2010
+! The beta3 sdk server requires beta3 sdk clients, you cannot connect to a new
+  beta3 sdk server with an older sdk client.
+! Switched channelIDs, logIDs, serverIDs, serverConnectionHandlerIDs, banIDs,
+  offlineMessageIDs from anyID to uint64
+* changed parameters of onTextMessageEvent
++ added new onServerProtocolEvent callback that triggers uppon connect telling
+  you which protocol version the server is running
+- numerous bug fixes and performance improvements
+
+=== SDK Release 3.0.0-beta2 20 Dec 2009
+* CLIENT_OUTPUT_MUTED will now mute both speakers and microphone, if really
+  want to mute the headphones only, use the new CLIENT_OUTPUTONLY_MUTED flag
+
+=== SDK Release 3.0.0-beta1 19 Dec 2009
+* Initial beta release

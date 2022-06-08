@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacbb41dcb7ea4e4c9b6296ded1b2900, type: 3}
+  m_Name: CharacterCreatorHandDefinition
+  m_EditorClassIdentifier: 
+  InterpolateIfReceiver: 1
+  ApplySmoothing: 1
+  SmoothingFactor: 0.5
+  StartInterpolationDuration: 1
+  Reach: 0.18
+  ReachStickiness: 0.4
+  WristRotationRange: {x: -90, y: 90}
+  RestRotation: -2
+  ExaggerateTwist: 0
+  TwistAxis: {x: 0, y: 1, z: 0}
+  ExaggerationFactor: 1.1
+  LeftHandSetup:
+    RotationAxis: {x: 0, y: 0, z: 1}
+    HandForward: {x: 0, y: 1, z: 0}
+    PalmFacing: {x: -1, y: 0, z: 0}
+    HandAlignmentAxis: {x: 0, y: 0.2960988, z: 0.9551573}
+    DeviationAngleRange: {x: -25, y: 30}
+    Thumb:
+      Joint0AngleRange: {x: -45, y: -8}
+      Joint1AngleRange: {x: 0, y: 60}
+      Joint2AngleRange: {x: 0, y: 60}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: -1, y: 0, z: 0}
+      FingerPointing: {x: 0, y: 1, z: 0}
+      NeutralOrientation: {x: 0.3131495, y: 0.1303816, z: 0.06093099, w: 0.9387361}
+      AbductedOrientation: {x: 0.07595138, y: -0.3902504, z: 0.3266288, w: 0.8574693}
+      AdductedOrientation: {x: 0.232185, y: 0.4070066, z: 0.03034618, w: 0.882919}
+    Index:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: 1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Middle:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: 1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Ring:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: 1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Pinky:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: 1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+  RightHandSetup:
+    RotationAxis: {x: 0, y: 0, z: -1}
+    HandForward: {x: 0, y: 1, z: 0}
+    PalmFacing: {x: 1, y: 0, z: 0}
+    HandAlignmentAxis: {x: 0, y: 0.2960988, z: 0.9551573}
+    DeviationAngleRange: {x: -30, y: 25}
+    Thumb:
+      Joint0AngleRange: {x: -45, y: -8}
+      Joint1AngleRange: {x: 0, y: 60}
+      Joint2AngleRange: {x: 0, y: 60}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: -1, y: 0, z: 0}
+      FingerPointing: {x: 0, y: 1, z: 0}
+      NeutralOrientation: {x: 0.2729101, y: 0.2014558, z: -0.1652176, w: 0.9260879}
+      AbductedOrientation: {x: 0.07595138, y: 0.3902504, z: -0.3266228, w: 0.8574693}
+      AdductedOrientation: {x: 0.1954681, y: -0.4152342, z: -0.04954749, w: 0.8870839}
+    Index:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: -1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Middle:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: -1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Ring:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: -1}
+      FingerPointing: {x: 0, y: 1, z: 0}
+    Pinky:
+      Joint0AngleRange: {x: -8, y: 90}
+      Joint1AngleRange: {x: 0, y: 100}
+      Joint2AngleRange: {x: 0, y: 75}
+      RestAngle: {x: 3, y: 15, z: 10}
+      RotationAxis: {x: 0, y: 0, z: -1}
+      FingerPointing: {x: 0, y: 1, z: 0}

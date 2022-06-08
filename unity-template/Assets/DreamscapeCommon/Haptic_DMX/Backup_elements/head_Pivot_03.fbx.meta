@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 9ac6785e563a83f44b7631e59aec1d7e
+timeCreated: 1524206920
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Arm
+    100002: arm1
+    100004: arm2
+    100006: hairMtl_C_hair01_GEP
+    100008: hairMtl_C_hair02_GEP
+    100010: hairMtl_C_hair03_GEP
+    100012: hairMtl_C_hair04_GEP
+    100014: hairMtl_C_hair05_GEP
+    100016: hairMtl_C_hair06_GEP
+    100018: hairMtl_C_hair07_GEP
+    100020: hairMtl_C_hair08_GEP
+    100022: hairMtl_C_hair09_GEP
+    100024: hairMtl_C_hair25_GEP
+    100026: hairMtl_C_hair26_GEP
+    100028: hang
+    100030: head
+    100032: //RootNode
+    100034: Hinge
+    100036: hinge
+    100038: models_GRP
+    100040: TrunkHorseFemale_LOC
+    400000: Arm
+    400002: arm1
+    400004: arm2
+    400006: hairMtl_C_hair01_GEP
+    400008: hairMtl_C_hair02_GEP
+    400010: hairMtl_C_hair03_GEP
+    400012: hairMtl_C_hair04_GEP
+    400014: hairMtl_C_hair05_GEP
+    400016: hairMtl_C_hair06_GEP
+    400018: hairMtl_C_hair07_GEP
+    400020: hairMtl_C_hair08_GEP
+    400022: hairMtl_C_hair09_GEP
+    400024: hairMtl_C_hair25_GEP
+    400026: hairMtl_C_hair26_GEP
+    400028: hang
+    400030: head
+    400032: //RootNode
+    400034: Hinge
+    400036: hinge
+    400038: models_GRP
+    400040: TrunkHorseFemale_LOC
+    2300000: arm1
+    2300002: arm2
+    2300004: hairMtl_C_hair01_GEP
+    2300006: hairMtl_C_hair02_GEP
+    2300008: hairMtl_C_hair03_GEP
+    2300010: hairMtl_C_hair04_GEP
+    2300012: hairMtl_C_hair05_GEP
+    2300014: hairMtl_C_hair06_GEP
+    2300016: hairMtl_C_hair07_GEP
+    2300018: hairMtl_C_hair08_GEP
+    2300020: hairMtl_C_hair09_GEP
+    2300022: hairMtl_C_hair25_GEP
+    2300024: hairMtl_C_hair26_GEP
+    2300026: hang
+    2300028: head
+    2300030: hinge
+    3300000: arm1
+    3300002: arm2
+    3300004: hairMtl_C_hair01_GEP
+    3300006: hairMtl_C_hair02_GEP
+    3300008: hairMtl_C_hair03_GEP
+    3300010: hairMtl_C_hair04_GEP
+    3300012: hairMtl_C_hair05_GEP
+    3300014: hairMtl_C_hair06_GEP
+    3300016: hairMtl_C_hair07_GEP
+    3300018: hairMtl_C_hair08_GEP
+    3300020: hairMtl_C_hair09_GEP
+    3300022: hairMtl_C_hair25_GEP
+    3300024: hairMtl_C_hair26_GEP
+    3300026: hang
+    3300028: head
+    3300030: hinge
+    4300000: hairMtl_C_hair01_GEP
+    4300002: hairMtl_C_hair02_GEP
+    4300004: hairMtl_C_hair03_GEP
+    4300006: hairMtl_C_hair04_GEP
+    4300008: hairMtl_C_hair05_GEP
+    4300010: hairMtl_C_hair06_GEP
+    4300012: hairMtl_C_hair07_GEP
+    4300014: hairMtl_C_hair08_GEP
+    4300016: hairMtl_C_hair09_GEP
+    4300018: hairMtl_C_hair25_GEP
+    4300020: hairMtl_C_hair26_GEP
+    4300022: head
+    4300024: arm2
+    4300026: hinge
+    4300028: arm1
+    4300030: hang
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
