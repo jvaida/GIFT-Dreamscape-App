@@ -30,6 +30,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ArtanimCommon/Scenes/Experience Setup/Experience Setup Scene.unity
     guid: 45d7c70a6a2997a47841506cecf60050
+  - enabled: 1
+    path: Assets/_DSFramework/Scenes/TestScene.unity
+    guid: 3fb7a5cfac732b94d92a1be27c1a241a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75cd6239edf980a49af6ab36ce3f5d20,
       type: 2}
