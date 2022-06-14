@@ -34,8 +34,36 @@ EditorBuildSettings:
     path: Assets/_DSFramework/Scenes/TestScene.unity
     guid: 3fb7a5cfac732b94d92a1be27c1a241a
   - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 1 - Overview/Overview.unity
+    guid: d5da5f2c540572b48b42511c612db8f1
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 2 - Dreamscape Experience/Dreamscape
+      Experience.unity
+    guid: 5e1c0e8377b95eb48aed914c1a0b5ada
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 3 - Dreamscape Space/Dreamscape Space.unity
+    guid: a08588d53a212a341ab66e6e92f65021
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 4 - Interactables/Interactables.unity
+    guid: 76cf08eb4f259fe4e8421f23886fdfbb
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 5 - Haptics/Haptics.unity
+    guid: 31e103c93c7cd4c47880cd2c89435510
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 6 - Movement/Movement.unity
+    guid: 26fdc7f420215524895a48d279ac9786
+  - enabled: 1
     path: Assets/_DSFramework/Modules/Module 7 - Timelines/Timelines.unity
     guid: b55bd63956010874d9197e992d561c05
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 8 - Configurations/Configuration.unity
+    guid: 13ed8db3eeadda04da033f15621d5cd0
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 9 - Deployment/Deployment.unity
+    guid: 928eeb5515ae28742a1f377a8df75547
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Module 10 - Avatar/Avatar.unity
+    guid: 7e022cd01123c004a905852613cbfa98
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75cd6239edf980a49af6ab36ce3f5d20,
       type: 2}
