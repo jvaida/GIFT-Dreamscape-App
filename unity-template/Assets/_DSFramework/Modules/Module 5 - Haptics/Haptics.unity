@@ -190,6 +190,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d73f17be76ddac45a54fe920f93482a, type: 3}
+--- !u!1 &10131362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 405830176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &10131363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10131362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_16
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 73
+      value: 0
+      name: Haptic_fan_16
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &34396795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -260,7 +292,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (2)
+      value: Haptic_fan_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -340,7 +372,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans
+      value: Haptic_fan_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -365,16 +397,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 41491809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 750ac54f646271f418a5374031a42188, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: Fan
-  Count: 1
-  Value: 0.5
-  Muted: 0
-  Side: 15
-  PickBy: 0
-  ForwardAxis: 0
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_1
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 11
+      value: 0
+      name: Haptic_fan_1
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &114744807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -445,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (12)
+      value: Haptic_fan_13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -618,6 +657,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7754ab05da10dd640a153392da365d15, type: 3}
+--- !u!1 &155962826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155962828}
+  - component: {fileID: 155962827}
+  m_Layer: 0
+  m_Name: Pod Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &155962827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155962826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed68f894ae7aedb468b6fe11f363a66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableInStandalone: 0
+--- !u!4 &155962828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155962826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.050320506, y: 1.270983, z: 0.9095111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2040256336}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &251055966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 489955547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &251055967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251055966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_17
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 81
+      value: 0
+      name: Haptic_fan_17
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &262278868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (4)
+      value: Haptic_fan_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -768,7 +884,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (6)
+      value: Haptic_fan_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -848,7 +964,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (15)
+      value: Haptic_fan_16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -928,7 +1044,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (8)
+      value: Haptic_fan_9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -953,16 +1069,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 483474353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 750ac54f646271f418a5374031a42188, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: Fan
-  Count: 1
-  Value: 0.5
-  Muted: 0
-  Side: 15
-  PickBy: 0
-  ForwardAxis: 0
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_9
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 43
+      value: 0
+      name: Haptic_fan_9
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &489955547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1033,7 +1156,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (16)
+      value: Haptic_fan_17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1113,7 +1236,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (17)
+      value: Haptic_fan_18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1123,6 +1246,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 691227357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &756507581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1645620472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &756507582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756507581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_10
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 51
+      value: 0
+      name: Haptic_fan_10
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1 &766181024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 851640304}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Fans
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1229,8 +1384,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851640303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0121822, y: 2.1041877, z: 0.6383214}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0625027, y: 0.83320475, z: -0.2711897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 41491808}
@@ -1251,9 +1406,137 @@ Transform:
   - {fileID: 405830177}
   - {fileID: 489955548}
   - {fileID: 691227358}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 2040256336}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &931183088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1352263078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931183089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931183088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_6
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 33
+      value: 0
+      name: Haptic_fan_6
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &1013098717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1617145284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1013098718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013098717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_11
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 61
+      value: 0
+      name: Haptic_fan_11
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &1048225697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1186526715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048225698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048225697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_2
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 12
+      value: 0
+      name: Haptic_fan_2
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &1159800064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1335740193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1159800065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159800064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_4
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 31
+      value: 0
+      name: Haptic_fan_4
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &1186526715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1324,7 +1607,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (1)
+      value: Haptic_fan_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1334,6 +1617,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1186526715}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1203128941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3542747953883415594, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1352263078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1203128943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203128941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750ac54f646271f418a5374031a42188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: Fan
+  Count: 1
+  Value: 0.5
+  Muted: 0
+  Side: 15
+  PickBy: 0
+  ForwardAxis: 0
 --- !u!1001 &1231988069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1404,7 +1712,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (11)
+      value: Haptic_fan_12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1484,7 +1792,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (14)
+      value: Haptic_fan_15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1509,16 +1817,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1232427512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 750ac54f646271f418a5374031a42188, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: Fan
-  Count: 1
-  Value: 0.5
-  Muted: 0
-  Side: 15
-  PickBy: 0
-  ForwardAxis: 0
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_15
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 72
+      value: 0
+      name: Haptic_fan_15
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &1287014120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1589,7 +1904,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (13)
+      value: Haptic_fan_14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1599,6 +1914,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1287014120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1299169649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1231988069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1299169650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299169649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_12
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 62
+      value: 0
+      name: Haptic_fan_12
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &1304580049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1287014120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1304580050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304580049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_14
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 71
+      value: 0
+      name: Haptic_fan_14
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &1335740193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1619,7 +1998,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.66
+      value: -0.6600001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
@@ -1669,7 +2048,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (3)
+      value: Haptic_fan_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1749,7 +2128,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (5)
+      value: Haptic_fan_6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -1759,6 +2138,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1352263078}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1372200492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7856874059815150981, guid: 7754ab05da10dd640a153392da365d15,
+    type: 3}
+  m_PrefabInstance: {fileID: 147758621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1372200495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372200492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2160252, y: 0.028575, z: 1.2160252}
+  m_Center: {x: -0.6096001, y: 0.0142875, z: 0.6096001}
+--- !u!1 &1507199968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1849930951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1507199969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507199968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_8
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 42
+      value: 0
+      name: Haptic_fan_8
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1 &1538289448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +2281,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1582253351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8585350632858347310, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1352263078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1582253353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582253351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750ac54f646271f418a5374031a42188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: Fan
+  Count: 1
+  Value: 0.5
+  Muted: 0
+  Side: 15
+  PickBy: 0
+  ForwardAxis: 0
 --- !u!1001 &1617145284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1921,7 +2376,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (10)
+      value: Haptic_fan_11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -2001,7 +2456,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (9)
+      value: Haptic_fan_10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -2011,6 +2466,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1645620472}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1696737741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 691227357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696737742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696737741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_18
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 91
+      value: 0
+      name: Haptic_fan_18
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &1800934795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 34396795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1800934796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800934795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_3
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 21
+      value: 0
+      name: Haptic_fan_3
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
 --- !u!1001 &1849930951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2081,7 +2600,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
         type: 3}
       propertyPath: m_Name
-      value: Fans (7)
+      value: Haptic_fan_8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01982ed1c42b09468bc974f6056e74e, type: 3}
@@ -2091,3 +2610,181 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1849930951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1968714423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 262278868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1968714424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968714423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_5
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 32
+      value: 0
+      name: Haptic_fan_5
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &2040256335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040256336}
+  - component: {fileID: 2040256338}
+  - component: {fileID: 2040256337}
+  m_Layer: 0
+  m_Name: Haptics(DMX)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2040256336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040256335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 851640304}
+  m_Father: {fileID: 155962828}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040256337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040256335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0dc81d5f961b364ba041380f1d2cca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeviceTestTime: 1
+  RampTime: 1
+--- !u!114 &2040256338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040256335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088e128d911c1374e8cbb67e53256440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultDmxConfigFile: C:/Github/dreamscape-framework/unity-template/Assets\StreamingAssets/Haptic_DMX/DMX_config.xml
+  dmxIp: 11.11.11.49
+  dmxPort: 6454
+  dMX_Devices:
+  - {fileID: 41491810}
+  - {fileID: 1048225698}
+  - {fileID: 1800934796}
+  - {fileID: 1159800065}
+  - {fileID: 1968714424}
+  - {fileID: 931183089}
+  - {fileID: 2062066125}
+  - {fileID: 1507199969}
+  - {fileID: 483474354}
+  - {fileID: 756507582}
+  - {fileID: 1013098718}
+  - {fileID: 1299169650}
+  - {fileID: 2124402320}
+  - {fileID: 1304580050}
+  - {fileID: 1232427513}
+  - {fileID: 10131363}
+  - {fileID: 251055967}
+  - {fileID: 1696737742}
+  inspectorSendDmx: 0
+--- !u!1 &2062066124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 388583104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062066125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062066124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_7
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 41
+      value: 0
+      name: Haptic_fan_7
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
+--- !u!1 &2124402319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d01982ed1c42b09468bc974f6056e74e,
+    type: 3}
+  m_PrefabInstance: {fileID: 114744807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2124402320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124402319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca662d4445ca49b995bbd3175cbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  dmxDevice:
+    deviceName: Haptic_fan_13
+    deviceType: DMX_fan
+    isDisabled: 0
+    valueMappingName: default_fan
+    dmxChannel:
+    - universes: 1
+      channel: 63
+      value: 0
+      name: Haptic_fan_13
+  slaveDevices: []
+  subDevices: []
+  UseGameObjectNameAsDeviceName: 1
