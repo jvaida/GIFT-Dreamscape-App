@@ -999,90 +999,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioChannelsConfiguration:
-    inUnityGain: 1
+    inUnityGain: 0.419
     outputGain: 1
     audioDeviceWorkingList:
-      audioDeviceNames: []
+      audioDeviceNames:
+      - Microsoft Sound Mapper - Output
+      - Line (2- Onyx Blackjack)
+      - DELL U2515H-8 (NVIDIA High Defi
+      - Speakers (Realtek High Definiti
+      - LG FULL HD-C (NVIDIA High Defin
+      - DVS Transmit  1-2 (Dante Virtua
+      - DVS Transmit 11-12 (Dante Virtu
+      - DVS Transmit  9-10 (Dante Virtu
+      - DVS Transmit 13-14 (Dante Virtu
+      - DVS Transmit 15-16 (Dante Virtu
+      - DVS Transmit  7-8 (Dante Virtua
+      - DVS Transmit  5-6 (Dante Virtua
+      - DVS Transmit  3-4 (Dante Virtua
     AudioChannels:
     - channelName_1: DVS 1
       channelName_2: DVS 2
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit  1-2 (Dante Virtua
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 5
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 3
       channelName_2: DVS 4
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit  3-4 (Dante Virtua
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 12
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 5
       channelName_2: DVS 6
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit  5-6 (Dante Virtua
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 11
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 7
       channelName_2: DVS 8
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit  7-8 (Dante Virtua
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 10
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 9
       channelName_2: DVS 10
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit  9-10 (Dante Virtu
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 7
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 11
       channelName_2: DVS 12
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit 11-12 (Dante Virtu
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 6
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 13
       channelName_2: DVS 14
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit 13-14 (Dante Virtu
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 8
+      isExpanded: 1
       muteWhenUnoccupied: 1
     - channelName_1: DVS 15
       channelName_2: DVS 16
       panelName_1: Unassigned
       panelName_2: Unassigned
-      audioDeviceName: None Given
+      audioDeviceName: DVS Transmit 15-16 (Dante Virtu
       gain_1: 1
       gain_2: 1
-      deviceListIndex: 0
-      isExpanded: 0
+      deviceListIndex: 9
+      isExpanded: 1
       muteWhenUnoccupied: 1
   AudioChannelsSize: 8
   useDefaultDevConfig: 1

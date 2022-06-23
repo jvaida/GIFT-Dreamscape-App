@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" inUnityGain="0.419" outputGain="1">
+  <audioDeviceWorkingList>
+    <Devices>
+      <DeviceNames>Microsoft Sound Mapper - Output</DeviceNames>
+      <DeviceNames>Line (2- Onyx Blackjack)</DeviceNames>
+      <DeviceNames>DELL U2515H-8 (NVIDIA High Defi</DeviceNames>
+      <DeviceNames>Speakers (Realtek High Definiti</DeviceNames>
+      <DeviceNames>LG FULL HD-C (NVIDIA High Defin</DeviceNames>
+      <DeviceNames>DVS Transmit  1-2 (Dante Virtua</DeviceNames>
+      <DeviceNames>DVS Transmit 11-12 (Dante Virtu</DeviceNames>
+      <DeviceNames>DVS Transmit  9-10 (Dante Virtu</DeviceNames>
+      <DeviceNames>DVS Transmit 13-14 (Dante Virtu</DeviceNames>
+      <DeviceNames>DVS Transmit 15-16 (Dante Virtu</DeviceNames>
+      <DeviceNames>DVS Transmit  7-8 (Dante Virtua</DeviceNames>
+      <DeviceNames>DVS Transmit  5-6 (Dante Virtua</DeviceNames>
+      <DeviceNames>DVS Transmit  3-4 (Dante Virtua</DeviceNames>
+    </Devices>
+  </audioDeviceWorkingList>
+  <AudioChannels>
+    <AudioChannel channelName_1="DVS 1" channelName_2="DVS 2" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit  1-2 (Dante Virtua" gain_1="1" gain_2="1" deviceListIndex="5" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 3" channelName_2="DVS 4" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit  3-4 (Dante Virtua" gain_1="1" gain_2="1" deviceListIndex="12" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 5" channelName_2="DVS 6" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit  5-6 (Dante Virtua" gain_1="1" gain_2="1" deviceListIndex="11" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 7" channelName_2="DVS 8" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit  7-8 (Dante Virtua" gain_1="1" gain_2="1" deviceListIndex="10" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 9" channelName_2="DVS 10" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit  9-10 (Dante Virtu" gain_1="1" gain_2="1" deviceListIndex="7" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 11" channelName_2="DVS 12" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit 11-12 (Dante Virtu" gain_1="1" gain_2="1" deviceListIndex="6" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 13" channelName_2="DVS 14" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit 13-14 (Dante Virtu" gain_1="1" gain_2="1" deviceListIndex="8" isExpanded="true" muteWhenUnoccupied="true" />
+    <AudioChannel channelName_1="DVS 15" channelName_2="DVS 16" panelName1="Unassigned" panelName2="Unassigned" audioDeviceName="DVS Transmit 15-16 (Dante Virtu" gain_1="1" gain_2="1" deviceListIndex="9" isExpanded="true" muteWhenUnoccupied="true" />
+  </AudioChannels>
+</configData>

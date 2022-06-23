@@ -285,17 +285,17 @@ namespace Dreamscape
 
 		public void RestoreFromXmlConfig()
 		{
-			var path = GetRuntimeDmxConfigPath();
+			var path = Path.Combine(Application.dataPath, "StreamingAssets/Haptic_DMX/Audio_config.xml");
 #if UNITY_EDITOR
 			if (!useDefaultDevConfig)
 			{
 				path = EditorUtility.OpenFilePanel(
 				 "Load DMX setup to Patch XML configuration file",
 				 Application.dataPath + "/StreamingAssets/Haptic_DMX/",
-				 "xml");
+                 "Audio_config" + ".xml");
 			}
 #endif
-			if (path.Length != 0)
+            if (path.Length != 0)
 			{
 				Debug.LogFormat("Reading DMX audio config: {0}", path);
 				AudioChannelsConfiguration.ReadFromXML(path);
