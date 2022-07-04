@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c338756cc87d964c983f2e247bcfbc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RigidbodyName: 
+  RigidbodyName: Torche_1
   UpdatePosition: 1
   UpdateRotation: 1
   HideIfNotTracked: 0
@@ -1417,7 +1417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c338756cc87d964c983f2e247bcfbc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RigidbodyName: 
+  RigidbodyName: Ball_1
   UpdatePosition: 1
   UpdateRotation: 1
   HideIfNotTracked: 0

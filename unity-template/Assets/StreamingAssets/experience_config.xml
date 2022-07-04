@@ -19,5 +19,28 @@
 		<Avatar Name="Lisa" AvatarResource="Avatars/PFB_Lisa" RigName="Mixamo" />
 	</Avatars>
 	<ExperienceProperties />
-	<TrackedProps />
+	<TrackedProps>
+		<TrackedProp Name="Torche_1" Transient="true" Group="Torch">
+			<StartPosition Tolerance="0">
+				<Vector X="0" Y="0" Z="0" />
+			</StartPosition>
+			<StartDirection1 Tolerance="0" Axis="X">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection1>
+			<StartDirection2 Tolerance="0" Axis="Y">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection2>
+		</TrackedProp>
+		<TrackedProp Name="Ball_1" Transient="true" Group="Ball">
+			<StartPosition Tolerance="0">
+				<Vector X="0" Y="0" Z="0" />
+			</StartPosition>
+			<StartDirection1 Tolerance="0" Axis="X">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection1>
+			<StartDirection2 Tolerance="0" Axis="Y">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection2>
+		</TrackedProp>
+	</TrackedProps>
 </ExperienceConfig>
