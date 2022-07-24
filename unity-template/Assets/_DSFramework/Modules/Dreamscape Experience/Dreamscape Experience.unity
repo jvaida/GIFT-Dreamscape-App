@@ -726,16 +726,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EarthSurface
       objectReference: {fileID: 0}
-    - target: {fileID: 2236121994347746351, guid: c34fd601b6ab0be43931d64a08d12275,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c4240a6f8e46cac45a6e283248af1f65, type: 2}
-    - target: {fileID: 7887389054490525368, guid: c34fd601b6ab0be43931d64a08d12275,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b3db2334111b7d1438c009f4c447a876, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c34fd601b6ab0be43931d64a08d12275, type: 3}
 --- !u!1 &1791162623
