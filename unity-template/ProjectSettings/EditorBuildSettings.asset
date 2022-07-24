@@ -34,7 +34,7 @@ EditorBuildSettings:
     path: Assets/ArtanimCommon/Scenes/Experience Setup/Experience Setup Scene.unity
     guid: 45d7c70a6a2997a47841506cecf60050
   - enabled: 1
-    path: Assets/_DSFramework/Modules/Dreamscape Experience/Dreamscape Experience.unity
+    path: Assets/_DSFramework/Modules/Dreamscape Experience/EarthScene/EarthScene.unity
     guid: 5e1c0e8377b95eb48aed914c1a0b5ada
   - enabled: 1
     path: Assets/_DSFramework/Modules/Dreamscape Experience/SpaceScene.unity
