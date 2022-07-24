@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/_DSFramework/Main Scene.unity
+    path: Assets/ArtanimCommon/Scenes/Main Scene.unity
     guid: bd47098bf0340f84fbe6d6ae5f300f9f
   - enabled: 1
     path: Assets/ArtanimCommon/Scenes/Emergency Scene/Emergency Scene.unity
@@ -34,13 +34,13 @@ EditorBuildSettings:
     path: Assets/ArtanimCommon/Scenes/Experience Setup/Experience Setup Scene.unity
     guid: 45d7c70a6a2997a47841506cecf60050
   - enabled: 1
-    path: Assets/_DSFramework/Scenes/TestScene.unity
-    guid: 3fb7a5cfac732b94d92a1be27c1a241a
-  - enabled: 1
     path: Assets/_DSFramework/Modules/Dreamscape Experience/Dreamscape Experience.unity
     guid: 5e1c0e8377b95eb48aed914c1a0b5ada
   - enabled: 1
-    path: Assets/_DSFramework/Modules/Dreamscape Space/Dreamscape Space.unity
+    path: Assets/_DSFramework/Modules/Dreamscape Experience/SpaceScene.unity
+    guid: 001736b397a866949b17979ca3dea581
+  - enabled: 1
+    path: Assets/_DSFramework/Modules/Space/Dreamscape Space.unity
     guid: a08588d53a212a341ab66e6e92f65021
   - enabled: 1
     path: Assets/_DSFramework/Modules/Haptics/Haptics.unity
