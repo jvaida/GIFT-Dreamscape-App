@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="false" ExperienceName="" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="false" VoiceChat="None" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Microphone" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="0" EnableNativeHaptics="true">
+<ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="false" ExperienceName="DSF_Template" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="false" VoiceChat="None" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Microphone" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="0" EnableNativeHaptics="true">
 	<StartScenes>
 		<Scene SceneName="Main Scene" />
 		<Scene SceneName="EarthScene" />
@@ -11,7 +11,6 @@
 		<Scene SceneName="Timelines" />
 		<Scene SceneName="Movement" />
 		<Scene SceneName="Haptic test scene" />
-		<Scene SceneName="TestScene" />
 	</StartScenes>
 	<Avatars>
 		<Avatar Name="Jack" AvatarResource="Avatars/PFB_Jack" RigName="Mixamo" />

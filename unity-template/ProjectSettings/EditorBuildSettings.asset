@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/ArtanimCommon/Scenes/Main Scene.unity
     guid: bd47098bf0340f84fbe6d6ae5f300f9f
@@ -37,7 +34,7 @@ EditorBuildSettings:
     path: Assets/_DSFramework/Modules/Dreamscape Experience/EarthScene/EarthScene.unity
     guid: 5e1c0e8377b95eb48aed914c1a0b5ada
   - enabled: 1
-    path: Assets/_DSFramework/Modules/Dreamscape Experience/SpaceScene.unity
+    path: Assets/_DSFramework/Modules/Dreamscape Experience/SpaceScene/SpaceScene.unity
     guid: 001736b397a866949b17979ca3dea581
   - enabled: 1
     path: Assets/_DSFramework/Modules/Space/Dreamscape Space.unity
