@@ -955,6 +955,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 8593712319471607584, guid: 13f78cc3538826d46a9aad0fec23dab9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8593712319471607587, guid: 13f78cc3538826d46a9aad0fec23dab9,
         type: 3}
       propertyPath: m_RootOrder
@@ -1042,7 +1047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &637277102
 Transform:
   m_ObjectHideFlags: 0
@@ -2489,7 +2494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2010528285
 MonoBehaviour:
   m_ObjectHideFlags: 0
