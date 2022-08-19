@@ -12,7 +12,7 @@ public class ButtonScript : MonoBehaviour
     
     
     
-    public UnityEvent onPressed, onReleased, onStay;
+    //public UnityEvent onPressed, onReleased, onStay;
 
     private float defaultPosition;
     private Renderer _renderer;
@@ -32,15 +32,15 @@ public class ButtonScript : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)) {
-            onPressed.Invoke();
+            //onPressed.Invoke();
         }    
     }
     
-    private void OnTriggerEnter(Collider other)
+    public void ButtonPressed()
     {
         //Debug.Log(gameObject.name + " pressed.");
         
-        onPressed.Invoke();
+        //onPressed.Invoke();
         
         _renderer.GetPropertyBlock(_propBlock);
         _propBlock.SetColor("_Color", pressedColor);
@@ -49,11 +49,11 @@ public class ButtonScript : MonoBehaviour
         buttonCap.transform.localPosition = new Vector3(buttonCap.transform.localPosition.x, pressedPosition, buttonCap.transform.localPosition.z);
     }
 
-    private void OnTriggerExit(Collider other)
+    public void ButtonReleased()
     {
         //Debug.Log(gameObject.name + " released.");
         
-        onReleased.Invoke();
+        //onReleased.Invoke();
         
         _renderer.GetPropertyBlock(_propBlock);
         _propBlock.SetColor("_Color", defaultColor);
@@ -65,6 +65,6 @@ public class ButtonScript : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         //Debug.Log(gameObject.name + "stay.");
-        onStay.Invoke();
+        //onStay.Invoke();
     }
 }

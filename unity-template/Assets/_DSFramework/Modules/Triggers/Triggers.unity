@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -839,6 +839,169 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13f78cc3538826d46a9aad0fec23dab9, type: 3}
+--- !u!1 &909635456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8593712318920735232, guid: 13f78cc3538826d46a9aad0fec23dab9,
+    type: 3}
+  m_PrefabInstance: {fileID: 909635455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &909635457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8593712318920735237, guid: 13f78cc3538826d46a9aad0fec23dab9,
+    type: 3}
+  m_PrefabInstance: {fileID: 909635455}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909635456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3711fcdeb8bbd4f9bdb238c489bf37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &909635458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909635456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b334bb2683a5a894c904bc85eaeaf33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectId: e39cf733-61db-42b9-bc6b-37a7b8b77248
+  SyncMode: 0
+  TriggeringClientOnly: 0
+  OnHeadEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHeadExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHandEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHandExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFootEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFootExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeftFootEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeftFootExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRightFootEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRightFootExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeftHandEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 909635457}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 184442050}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnLeftHandExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 909635457}
+        m_MethodName: ButtonReleased
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 184442050}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnRightHandEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 909635457}
+        m_MethodName: ButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 184442050}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnRightHandExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 909635457}
+        m_MethodName: ButtonReleased
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 184442050}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1058243590
 GameObject:
   m_ObjectHideFlags: 0
