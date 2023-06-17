@@ -54,6 +54,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_DSFramework/Modules/Movement/Movement.unity
     guid: 26fdc7f420215524895a48d279ac9786
+  - enabled: 1
+    path: Assets/_DCSI/TestScene.unity
+    guid: a61a6815e4bbe4048852986c383de242
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75cd6239edf980a49af6ab36ce3f5d20,
       type: 2}
