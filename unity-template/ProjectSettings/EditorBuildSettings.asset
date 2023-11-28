@@ -51,63 +51,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_DSFramework/Modules/Timelines/Timelines.unity
     guid: b55bd63956010874d9197e992d561c05
-  - enabled: 0
-    path: Assets/arvinds world.unity
-    guid: a26bd06c60b4b4b8da40b3ba43d487b4
-  - enabled: 0
-    path: Assets/arvind2.unity
-    guid: d33994400f39f604d811b2250de572ff
-  - enabled: 0
-    path: Assets/Bubba Gum.unity
-    guid: 381c4056608614b9d8d9d135ee1abbff
-  - enabled: 0
-    path: Assets/coconut woman is calling out.unity
-    guid: b505cb3d653c049ca997194ad698d2c9
-  - enabled: 0
-    path: Assets/desert_landscape.unity
-    guid: 23b20cd729b978a4ba69ee2917ec4679
-  - enabled: 0
-    path: Assets/DiyaDeanna.unity
-    guid: 6d0c0aef280df47a6b912d8a8d19b63a
-  - enabled: 0
-    path: Assets/Enchanted Forest.unity
-    guid: a7c1c09f4cb4b4300b35bc3a11bee0e3
-  - enabled: 0
-    path: Assets/fireworks xander.unity
-    guid: 717c7043cd9ba4c18968cd32fa1b058c
-  - enabled: 0
-    path: Assets/PaigesWorld.unity
-    guid: eab2a8b4b80d04f67997e47d076a8320
-  - enabled: 0
-    path: Assets/Scenes/Nathans Scene.unity
-    guid: 11ceaea0a66790b4b92430e3a2220ffd
-  - enabled: 0
-    path: Assets/LimboOfTheSkull.unity
-    guid: 22c80f0beabe24d728852b12bb977698
-  - enabled: 0
-    path: Assets/RyansProject.unity
-    guid: c2ddf1310973141a0b716e42a3e32770
-  - enabled: 0
-    path: Assets/Scenes/Andrew-shaded camp proj.unity
-    guid: 6a8dcb817dc4bbb4b95d1c97345cc852
-  - enabled: 0
-    path: Assets/Scenes/CORBIN-Dreamscape.unity
-    guid: 91e4c0ed5b3cf435ea0fdc6d26d19f25
-  - enabled: 0
-    path: Assets/Scenes/Jake-Project.unity
-    guid: d9233a501f1e6428484b3d3eae3a3ba7
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Uma-mystical land.unity
-    guid: a96f81836da4e44a6b945b99d746c8fb
   - enabled: 1
-    path: Assets/_DSFramework/Modules/Movement/Movement.unity
-    guid: 26fdc7f420215524895a48d279ac9786
-  - enabled: 0
-    path: Assets/_DCSI/TestScene.unity
-    guid: a61a6815e4bbe4048852986c383de242
+    path: Assets/__DSC551/Group2/G2 Final.unity
+    guid: dda9315d5e56e5ba194735ee8eeb2859
+  - enabled: 1
+    path: Assets/__DSC551/Group3/DSCGroup3/Scene/DSCGroup3Scene.unity
+    guid: d6f188ae1a3876b40bc8e92a244b9e1c
+  - enabled: 1
+    path: Assets/__DSC551/Group4/SampleChooserScene-SequencedButtons.unity
+    guid: c82d41979f6d3401187c9fea15c9802e
+  - enabled: 1
+    path: Assets/__DSC551/Group6/Toothie.unity
+    guid: 35c0d7a2b6d1b4000827f1752b7ef50f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75cd6239edf980a49af6ab36ce3f5d20,
       type: 2}
