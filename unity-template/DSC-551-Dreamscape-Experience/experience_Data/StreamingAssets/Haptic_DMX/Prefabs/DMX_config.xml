@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DmxDeviceCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dmxIp="10.1.1.49" dmxPort="6454">
+  <Devices>
+    <Device deviceName="Haptic_fan (1)" deviceType="DMX_fan" isDisabled="false">
+      <fileDeviceFound>false</fileDeviceFound>
+      <DmxChannels>
+        <DmxChannel universes="1" channel="11" value="0" name="Haptic_fan (1)" />
+      </DmxChannels>
+    </Device>
+    <Device deviceName="Haptic_fan (2)" deviceType="DMX_fan" isDisabled="false">
+      <fileDeviceFound>false</fileDeviceFound>
+      <DmxChannels>
+        <DmxChannel universes="1" channel="12" value="0" name="Haptic_fan (2)" />
+      </DmxChannels>
+    </Device>
+    <Device deviceName="Haptic_fan (3)" deviceType="DMX_fan" isDisabled="false">
+      <fileDeviceFound>false</fileDeviceFound>
+      <DmxChannels>
+        <DmxChannel universes="1" channel="21" value="0" name="Haptic_fan (3)" />
+      </DmxChannels>
+    </Device>
+  </Devices>
+</DmxDeviceCollection>

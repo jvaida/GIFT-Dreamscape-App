@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PodLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Railing>
+		<Dimensions Width="4" Depth="4" />
+        <Position X="0" Y="0" Z="0" />
+		<Doors>
+			<Door Side="Front" Position="1" Angle="180" />
+			<Door Side="Front" Position="2" Angle="0" />
+		</Doors>
+	</Railing>
+	<Floor NameTemplate="R{X}-C{Z}">
+		<Dimensions Width="4" Depth="4" />
+        <Position X="0" Y="0.001" Z="0" />
+	</Floor>
+	<Components>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_1">
+			<Position X="1.43" Y="1.75" Z="3.2" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_2">
+			<Position X="2.08" Y="1.75" Z="3.2" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_3">
+			<Position X="3" Y="1.75" Z="3" />
+			<Rotation X="0" Y="225" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_4">
+			<Position X="3.2" Y="1.75" Z="1.75" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_5">
+			<Position X="3.2" Y="1.75" Z="1.17" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_6">
+			<Position X="3.2" Y="1.75" Z="0.61" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_7">
+			<Position X="3.2" Y="1.75" Z="-0.93" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_8">
+			<Position X="3.2" Y="1.75" Z="-1.45" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_9">
+			<Position X="3.2" Y="1.75" Z="-2.1" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_10">
+			<Position X="3" Y="1.75" Z="-3" />
+			<Rotation X="0" Y="315" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_11">
+			<Position X="1.77" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_12">
+			<Position X="1.19" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_13">
+			<Position X="0.63" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_14">
+			<Position X="-0.76" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_15">
+			<Position X="-1.49" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_16">
+			<Position X="-2.14" Y="1.75" Z="-3.2" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_17">
+			<Position X="-3" Y="1.75" Z="-3" />
+			<Rotation X="0" Y="45" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_18">
+			<Position X="-3.2" Y="1.75" Z="-1.76" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_19">
+			<Position X="-3.2" Y="1.75" Z="-1.18" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_20">
+			<Position X="-3.2" Y="1.75" Z="-0.62" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_21">
+			<Position X="-3.2" Y="1.75" Z="0.92" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_22">
+			<Position X="-3.2" Y="1.75" Z="1.43" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_23">
+			<Position X="-3.2" Y="1.75" Z="2.08" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_24">
+			<Position X="-3" Y="1.75" Z="3" />
+			<Rotation X="0" Y="135" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_25">
+			<Position X="-1.82" Y="1.75" Z="3.2" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Fan" Name="Haptic_fan_26">
+			<Position X="-1.24" Y="1.75" Z="3.2" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Mist" Name="Haptic_mist_corner_1">
+			<Position X="-2.6" Y="1.75" Z="-2.6" />
+			<Rotation X="0" Y="45" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Mist" Name="Haptic_mist_corner_2">
+			<Position X="-2.6" Y="1.75" Z="2.6" />
+			<Rotation X="0" Y="135" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Mist" Name="Haptic_mist_corner_3">
+			<Position X="2.6" Y="1.75" Z="2.6" />
+			<Rotation X="0" Y="225" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Mist" Name="Haptic_mist_corner_4">
+			<Position X="2.6" Y="1.75" Z="-2.6" />
+			<Rotation X="0" Y="315" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_left_c1">
+			<Position X="-2" Y="1.75" Z="-2.5" />
+			<Rotation X="0" Y="50" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_right_c1">
+			<Position X="-2.5" Y="1.75" Z="-2" />
+			<Rotation X="0" Y="50" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_left_c2">
+			<Position X="-2.5" Y="1.75" Z="2" />
+			<Rotation X="0" Y="140" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_right_c2">
+			<Position X="-2" Y="1.75" Z="2.5" />
+			<Rotation X="0" Y="140" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_left_c3">
+			<Position X="2" Y="1.75" Z="2.5" />
+			<Rotation X="0" Y="230" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_right_c3">
+			<Position X="2.5" Y="1.75" Z="2" />
+			<Rotation X="0" Y="230" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_left_c4">
+			<Position X="2.5" Y="1.75" Z="-2" />
+			<Rotation X="0" Y="320" Z="0" />
+		</Component>
+		<Component xsi:type="DmxComponent" Type="Scent" Name="Haptic_scent_right_c4">
+			<Position X="2" Y="1.75" Z="-2.5" />
+			<Rotation X="0" Y="320" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="2.55" Y="1.05" Z="1.6" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="2.55" Y="1.05" Z="-0.38" />
+			<Rotation X="0" Y="90" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="1.6" Y="1.05" Z="-2.55" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="-1.6" Y="1.05" Z="-2.55" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="-2.55" Y="1.05" Z="-0.38" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Scooter">
+			<Position X="-2.55" Y="1.05" Z="1.6" />
+			<Rotation X="0" Y="270" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Button">
+			<Position X="0.32" Y="0.92" Z="2.4" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="Lever">
+			<Position X="-2.48" Y="0.93" Z="0.53" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="RailingCircularBothEnds">
+			<Position X="0" Y="0" Z="-1.2185" />
+			<Rotation X="0" Y="0" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="RailingCircular">
+			<Position X="1.2185" Y="0" Z="0" />
+			<Rotation X="0" Y="-90" Z="0" />
+		</Component>
+		<Component xsi:type="PassiveComponent" Type="RailingCircular">
+			<Position X="0" Y="0" Z="1.2185" />
+			<Rotation X="0" Y="180" Z="0" />
+		</Component>
+	</Components>
+</PodLayout>

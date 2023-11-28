@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="false" ExperienceName="DSC551" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="false" VoiceChat="None" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Microphone" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="0" EnableNativeHaptics="true">
+	<StartScenes>
+		<Scene SceneName="EarthScene" />
+		<Scene SceneName="SpaceScene" />
+		<Scene SceneName="Dreamscape Space" />
+		<Scene SceneName="Haptics" />
+		<Scene SceneName="Triggers" />
+		<Scene SceneName="Trackables" />
+		<Scene SceneName="Timelines" />
+		<Scene SceneName="Movement" />
+	</StartScenes>
+	<Avatars>
+		<Avatar Name="Jack" AvatarResource="Avatars/PFB_Jack" RigName="Mixamo" />
+		<Avatar Name="Lisa" AvatarResource="Avatars/PFB_Lisa" RigName="Mixamo" />
+	</Avatars>
+	<ExperienceProperties />
+	<TrackedProps>
+		<TrackedProp Name="Torche_1" Transient="true" Group="Torch">
+			<StartPosition Tolerance="0">
+				<Vector X="0" Y="0" Z="0" />
+			</StartPosition>
+			<StartDirection1 Tolerance="0" Axis="X">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection1>
+			<StartDirection2 Tolerance="0" Axis="Y">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection2>
+		</TrackedProp>
+		<TrackedProp Name="Ball_1" Transient="true" Group="Ball">
+			<StartPosition Tolerance="0">
+				<Vector X="0" Y="0" Z="0" />
+			</StartPosition>
+			<StartDirection1 Tolerance="0" Axis="X">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection1>
+			<StartDirection2 Tolerance="0" Axis="Y">
+				<Vector X="0" Y="0" Z="0" />
+			</StartDirection2>
+		</TrackedProp>
+	</TrackedProps>
+</ExperienceConfig>

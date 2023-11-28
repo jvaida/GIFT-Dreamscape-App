@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DmxConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EndPoint dmxIp="*.*.*.49" dmxPort="6454" />
+  <!-- Standard pod -->
+  <Devices muted="false">
+    <Device name="Haptic_fan_1" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="11" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_2" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="12" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_3" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="21" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_4" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="31" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_5" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="32" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_6" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="33" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_7" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="41" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_8" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="42" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_9" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="43" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_10" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="51" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_11" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="61" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_12" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="62" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_13" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="63" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_14" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="71" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_15" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="72" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_16" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="73" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_17" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="81" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_18" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="91" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_19" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="92" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_20" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="93" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_21" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="101" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_22" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="102" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_23" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="103" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_24" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="111" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_25" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="121" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_fan_26" type="fan" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="122" value="0" name="fan" mapping="default_fan" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_mist_corner_1" type="mist" disabled="false">
+      <Channels>
+        <Channe universe="1" channel="22" value="0" name="mist" mapping="default_mist" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_mist_corner_2" type="mist" disabled="false">
+      <Channels>
+        <Channe universe="1" channel="52" value="0" name="mist" mapping="default_mist" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_mist_corner_3" type="mist" disabled="false">
+      <Channels>
+        <Channe universe="1" channel="82" value="0" name="mist" mapping="default_mist" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_mist_corner_4" type="mist" disabled="false">
+      <Channels>
+        <Channe universe="1" channel="112" value="0" name="mist" mapping="default_mist" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_left_c1" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="23" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_right_c1" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="24" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_left_c2" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="53" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_right_c2" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="54" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_left_c3" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="83" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_right_c3" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="84" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_left_c4" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="113" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+    <Device name="Haptic_scent_right_c4" type="scent" disabled="false">
+      <Channels>
+        <Channel universe="1" channel="114" value="0" name="scent" mapping="default_scent" />
+      </Channels>
+    </Device>
+  </Devices>
+</DmxConfig>
