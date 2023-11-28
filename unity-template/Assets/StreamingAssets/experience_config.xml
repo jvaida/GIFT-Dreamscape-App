@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="false" ExperienceName="DCSI_Test" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="false" VoiceChat="None" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Microphone" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="0" EnableNativeHaptics="true">
-=======
 <ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="false" ExperienceName="DSC551" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="false" VoiceChat="None" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Microphone" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="0" EnableNativeHaptics="true">
->>>>>>> Stashed changes
 	<StartScenes>
 		<Scene SceneName="EarthScene" />
 		<Scene SceneName="SpaceScene" />
