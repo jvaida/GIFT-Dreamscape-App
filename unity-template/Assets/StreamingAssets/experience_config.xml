@@ -9,7 +9,6 @@
 		<Scene SceneName="Trackables" />
 		<Scene SceneName="Timelines" />
 		<Scene SceneName="Movement" />
-		<Scene SceneName="Haptic test scene" />
 	</StartScenes>
 	<Avatars>
 		<Avatar Name="Jack" AvatarResource="Avatars/PFB_Jack" RigName="Mixamo" />
