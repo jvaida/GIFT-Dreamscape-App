@@ -73,7 +73,7 @@ namespace Artanim
                 if (_screenshotTex.width != Screen.width || _screenshotTex.height != Screen.height)
                 {
                     // screen size has changed. Resize our texture object.
-                    _screenshotTex.Resize(Screen.width, Screen.height);
+                    _screenshotTex.Reinitialize(Screen.width, Screen.height);
                     _screenshotTex.Apply();
                 }
 
