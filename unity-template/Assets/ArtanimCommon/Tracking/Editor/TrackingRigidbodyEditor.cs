@@ -33,6 +33,7 @@ namespace Artanim.Tracking
                     EditorGUILayout.Toggle("IsSkeletonSubject", subject.IsSkeletonSubject);
                     EditorGUILayout.Toggle("IsSkeletonSubjectClassified", subject.IsSkeletonSubjectClassified);
                     EditorGUILayout.EnumPopup("Subject", subject.Subject);
+                    EditorGUILayout.Toggle("IsVirtual", subject.IsVirtual);
                     EditorGUILayout.TextField("LastUpdate", subject.LastUpdate.ToLongTimeString());
                     EditorGUILayout.IntField("LastUpdateFrameNumber", (int)subject.LastUpdateFrameNumber);
                     EditorGUILayout.Toggle("IsTracked", subject.IsTracked);

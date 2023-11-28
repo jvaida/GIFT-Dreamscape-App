@@ -44,13 +44,16 @@ namespace Artanim.Haptics
 
 		public void SetPlayerVolume(RuntimePlayer player, float volume)
 		{
-			if (_player == null)
-            {
-				Debug.LogError("SetPlayerVolume shouldn't be called before Start() has run");
-            }
-			else
-            {
-				_player.SetPlayerVolume(player, volume);
+			if (HapticsController.Instance)
+			{
+				if (_player == null)
+	            {
+						Debug.LogWarning("Calling SetPlayerVolume on disabled HapticAudioEffect");
+	            }
+				else
+	            {
+					_player.SetPlayerVolume(player, volume);
+				}
 			}
 		}
 
@@ -72,6 +75,11 @@ namespace Artanim.Haptics
 					MutedElements = MutedElements,
 				});
 			}
+		}
+
+		void OnDisable()
+		{
+			_player = null;
 		}
 
 		// Update is called once per frame

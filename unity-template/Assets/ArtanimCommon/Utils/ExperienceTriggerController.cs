@@ -67,7 +67,7 @@ namespace Artanim
             }
         }
 
-        private void RunTrigger(string triggerName)
+        public void RunTrigger(string triggerName)
         {
             //Debug.LogFormat("Experience trigger received: TriggerName={0}", args.TriggerName);
             if (TriggerActions != null && TriggerActions.Count() > 0 && !string.IsNullOrEmpty(triggerName))

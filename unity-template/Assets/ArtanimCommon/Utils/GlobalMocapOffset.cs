@@ -37,6 +37,11 @@ namespace Artanim
 			return MocapOffsetTarget ? MocapOffsetTarget.transform.InverseTransformPoint(worldPos) : worldPos;
 		}
 
+		public Vector3 UnOffsetDirection(Vector3 direction)
+		{
+			return MocapOffsetTarget ? MocapOffsetTarget.transform.InverseTransformDirection(direction) : direction;
+		}
+
 		void LateUpdate()
 		{
 			//Global offset

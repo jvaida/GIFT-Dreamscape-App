@@ -64,7 +64,7 @@ namespace Artanim
                                     KnownLanguages.Add(language);
                             }
 						}
-						Texts.Add(text.Id, text);
+						Texts.Add(text.Id.Trim(), text);
 					}
 				}
 

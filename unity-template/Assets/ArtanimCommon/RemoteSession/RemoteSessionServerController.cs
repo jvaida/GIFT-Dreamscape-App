@@ -150,10 +150,10 @@ namespace Artanim.Remote
 
         #region Internals
 
-        private static Location.Config.SystemConfig.ClientApiConfig _config;
+        private static Location.Config.DreamscapeApiConfig _config;
         private static bool _getConfigDone;
 
-        private static Location.Config.SystemConfig.ClientApiConfig GetConfig()
+        private static Location.Config.DreamscapeApiConfig GetConfig()
         {
             if (!_getConfigDone)
             {
@@ -163,7 +163,7 @@ namespace Artanim.Remote
                 {
                     try
                     {
-                        var clientApiXml = Location.Config.SystemConfig.Instance.ClientApi;
+                        var clientApiXml = Location.Config.SystemConfig.Instance.HostessData.Dreamscape;
                         if (clientApiXml == null)
                         {
                             Debug.LogFormat("RemoteSessionServer: {0} doesn't have a ClientApi node", Location.Config.SystemConfig.Pathname);
@@ -534,7 +534,7 @@ namespace Artanim.Remote
         }
 
 
-        private static Location.Config.SystemConfig.ClientApiConfig GetConfig()
+        private static Location.Config.DreamscapeApiConfig GetConfig()
         {
             return null;
         }

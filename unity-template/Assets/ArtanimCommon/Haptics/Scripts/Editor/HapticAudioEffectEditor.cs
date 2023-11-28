@@ -53,35 +53,33 @@ namespace Artanim.Haptics.Editor
             EditorGUILayout.PropertyField(_persistent);
             EditorGUILayout.PropertyField(_alwaysPlay);
 
-            if (!_alwaysPlay.boolValue)
+            // Devices selection
+            if (_devSelection == 0)
             {
-                // Devices selection
-                if (_devSelection == 0)
-                {
-                    _devSelection = _target.objectReferenceValue ? DevicesSelection.Target : DevicesSelection.Elements;
-                }
-                var newDevSelection = (DevicesSelection)EditorGUILayout.EnumPopup("Devices Selection", _devSelection);
-                if (newDevSelection != _devSelection)
-                {
-                    _devSelection = newDevSelection;
-                    if (_devSelection == DevicesSelection.Target)
-                    {
-                        _mutedElements.ClearArray();
-                    }
-                    else
-                    {
-                        _target.objectReferenceValue = null;
-                    }
-                }
+                _devSelection = _target.objectReferenceValue ? DevicesSelection.Target : DevicesSelection.Elements;
+            }
+            var newDevSelection = (DevicesSelection)EditorGUILayout.EnumPopup("Devices Selection", _devSelection);
+            if (newDevSelection != _devSelection)
+            {
+                _devSelection = newDevSelection;
                 if (_devSelection == DevicesSelection.Target)
                 {
-                    EditorGUILayout.PropertyField(_target);
+                    _mutedElements.ClearArray();
                 }
-                else if (_devSelection == DevicesSelection.Elements)
+                else
                 {
-                    // Elements (tiles)
-                    ShowElementsGuiLayout(_mutedElements);
+                    _target.objectReferenceValue = null;
                 }
+            }
+
+            if (_devSelection == DevicesSelection.Target)
+            {
+                EditorGUILayout.PropertyField(_target);
+            }
+            else if (_devSelection == DevicesSelection.Elements)
+            {
+                // Elements (tiles)
+                ShowElementsGuiLayout(_mutedElements);
             }
         }
     }

@@ -135,22 +135,22 @@
     </Device>
     <Device name="Haptic_mist_corner_1" type="mist" disabled="false">
       <Channels>
-        <Channe universe="1" channel="22" value="0" name="mist" mapping="default_mist" />
+        <Channel universe="1" channel="22" value="0" name="mist" mapping="default_mist" />
       </Channels>
     </Device>
     <Device name="Haptic_mist_corner_2" type="mist" disabled="false">
       <Channels>
-        <Channe universe="1" channel="52" value="0" name="mist" mapping="default_mist" />
+        <Channel universe="1" channel="52" value="0" name="mist" mapping="default_mist" />
       </Channels>
     </Device>
     <Device name="Haptic_mist_corner_3" type="mist" disabled="false">
       <Channels>
-        <Channe universe="1" channel="82" value="0" name="mist" mapping="default_mist" />
+        <Channel universe="1" channel="82" value="0" name="mist" mapping="default_mist" />
       </Channels>
     </Device>
     <Device name="Haptic_mist_corner_4" type="mist" disabled="false">
       <Channels>
-        <Channe universe="1" channel="112" value="0" name="mist" mapping="default_mist" />
+        <Channel universe="1" channel="112" value="1" name="mist" mapping="default_mist" />
       </Channels>
     </Device>
     <Device name="Haptic_scent_left_c1" type="scent" disabled="false">

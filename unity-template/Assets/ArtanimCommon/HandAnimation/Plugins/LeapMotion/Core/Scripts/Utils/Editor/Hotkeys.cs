@@ -22,10 +22,11 @@ namespace Leap.Unity {
         return;
       }
 
-      GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.Editable);
-      if (objs.Length == 0) {
-        return;
-      }
+     //GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.OnlyUserModifiable | SelectionMode.Editable);
+     GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.TopLevel | SelectionMode.Editable);
+        if (objs.Length == 0) {
+            return;
+        }
 
       Transform first = objs[0].transform;
 
@@ -104,7 +105,8 @@ namespace Leap.Unity {
         return;
       }
 
-      GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.Editable);
+      //GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.OnlyUserModifiable | SelectionMode.Editable);
+       GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.TopLevel | SelectionMode.Editable);
       foreach (var obj in objs) {
         Undo.RecordObject(obj.transform, "Cleared transform for " + obj.name + ".");
         obj.transform.localPosition = Vector3.zero;
@@ -119,7 +121,9 @@ namespace Leap.Unity {
         return;
       }
 
-      GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.Editable);
+      //GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.OnlyUserModifiable | SelectionMode.Editable);
+      GameObject[] objs = Selection.GetFiltered<GameObject>(SelectionMode.ExcludePrefab | SelectionMode.TopLevel | SelectionMode.Editable);
+
       foreach (var obj in objs) {
         Undo.RecordObject(obj.transform, "Cleared local position and rotation for " + obj.name + ".");
         obj.transform.localPosition = Vector3.zero;

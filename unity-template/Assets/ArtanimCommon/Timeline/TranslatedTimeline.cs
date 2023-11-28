@@ -119,14 +119,14 @@ namespace Artanim
 					//Keep original timeline bindings
 					var origBindings = new List<Object>();
 					var timeline = Director.playableAsset as TimelineAsset;
-					foreach (var track in timeline.GetRootTracks())
+					foreach (var track in timeline.GetOutputTracks())
 						origBindings.Add(Director.GetGenericBinding(track));
 
 					Director.playableAsset = langSpecificTimeline;
 
 					//Set bindings
-					var timelineTracks = langSpecificTimeline.GetRootTracks().ToArray();
-					if(timelineTracks.Count() == origBindings.Count())
+					var timelineTracks = langSpecificTimeline.GetOutputTracks().ToArray();
+					if (timelineTracks.Count() == origBindings.Count())
 					{
 						for (var i = 0; i < timelineTracks.Count(); ++i)
 						{

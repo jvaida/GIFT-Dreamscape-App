@@ -138,7 +138,7 @@ namespace Artanim.Haptics.Visuals
             IsInstantiated = true;
 
             // Syncing device states between client and server
-            if (Application.isPlaying && !Location.Network.NetworkInterface.Instance.IsServer && GameController.Instance)
+            if (Application.isPlaying && GameController.Instance && !Location.Network.NetworkInterface.Instance.IsServer)
             {
                 GameController.Instance.OnStreamingMessage += Instance_OnStreamingMessage;
             }
@@ -155,7 +155,7 @@ namespace Artanim.Haptics.Visuals
 
         void LateUpdate()
         {
-            if (Application.isPlaying && Location.Network.NetworkInterface.Instance.IsServer)
+            if (Application.isPlaying && Location.Network.NetworkInterface.HasInstance && Location.Network.NetworkInterface.Instance.IsServer)
             {
                 if (HapticsController.IsDmxEnabled)
                 {

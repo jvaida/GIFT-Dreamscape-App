@@ -107,7 +107,7 @@ namespace Artanim
 		{
 			if (!string.IsNullOrEmpty(textId))
 			{
-				var text = TextProvider.GetText(textId, !string.IsNullOrEmpty(CurrentLanguage) ? CurrentLanguage : DefaultLanguage, DefaultLanguage);
+				var text = TextProvider.GetText(textId.Trim(), !string.IsNullOrEmpty(CurrentLanguage) ? CurrentLanguage : DefaultLanguage, DefaultLanguage);
 
 #if UNITY_EDITOR
 				if (text != null && ConfigService.Instance.ExperienceSettings.ShowKeysInEditor)

@@ -19,7 +19,6 @@ namespace Artanim
 		public RuntimePlayer(bool isMainPlayer, Player player, Transform avatarOffset, AvatarController avatarController, GameObject playerInstance)
 		{
 			IsMainPlayer = isMainPlayer;
-			IsWheelchair = player.CalibrationMode == ECalibrationMode.TrackedWheelchair || player.CalibrationMode == ECalibrationMode.UserWheelchair || player.CalibrationMode == ECalibrationMode.SeatedExperienceWheelchair;
 			IsSeated = player.CalibrationMode != ECalibrationMode.Normal;
 			IsDesktopAvatar = player.IsDesktop;
 			Player = player;
@@ -30,7 +29,15 @@ namespace Artanim
 
 		public bool IsMainPlayer { get; private set; }
 
-		public bool IsWheelchair { get; private set; }
+		public bool IsWheelchair
+        {
+			get 
+			{ 
+				return Player.CalibrationMode == ECalibrationMode.TrackedWheelchair 
+					|| Player.CalibrationMode == ECalibrationMode.UserWheelchair 
+					|| Player.CalibrationMode == ECalibrationMode.SeatedExperienceWheelchair; 
+			}
+        }
 
 		public bool IsSeated { get; private set; }
 

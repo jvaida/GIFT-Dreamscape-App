@@ -989,6 +989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9792ff5d83aea43bd416b590f084c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DefaultStandaloneAvatarTemplate: {fileID: 100374, guid: 56c6e9f8cae423f43ba33d0980b9c966,
+    type: 2}
 --- !u!114 &114136285660788230
 MonoBehaviour:
   m_ObjectHideFlags: 1

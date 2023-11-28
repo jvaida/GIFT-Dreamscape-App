@@ -45,12 +45,9 @@ namespace Artanim.Haptics.Editor
             EditorGUILayout.PropertyField(_persistent);
             EditorGUILayout.PropertyField(_alwaysPlay);
 
-            if (!_alwaysPlay.boolValue)
-            {
-                // Elements (tiles)
-                EditorGUILayout.Space();
-                ShowElementsGuiLayout(_mutedElements);
-            }
+            // Elements (tiles)
+            EditorGUILayout.Space();
+            ShowElementsGuiLayout(_mutedElements);
         }
     }
 }

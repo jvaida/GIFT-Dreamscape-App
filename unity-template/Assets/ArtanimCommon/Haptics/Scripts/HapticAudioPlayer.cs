@@ -200,9 +200,6 @@ namespace Artanim.Haptics.Internal
 
 		void UpdateVolume(float volume)
         {
-			if (ConfigService.VerboseSdkLog) Debug.LogFormat(
-				"<color=magenta>AudioPlayer ({0}): volume={1}{2}</color>", _settings.DisplayName, volume, _sound != null ? "" : " (sound not yet created)");
-
 			_settings.Volume = volume;
 			if (_sound != null)
 			{
@@ -246,7 +243,7 @@ namespace Artanim.Haptics.Internal
 						ctrl.AllElements.Where(e => !_settings.MutedElements.Contains(e.Name));
 
 					// Note: we can't have both elements and players
-					_sound = _settings.AlwaysPlay && !hasMutedElements
+					_sound = _settings.AlwaysPlay && !hasMutedElements && !_settings.Bounds.HasValue
 						? ctrl.CreateGlobalSound(_settings.DisplayName, ignoreMuteWhenUnoccupiedFlag: true)
 						: ctrl.CreateSound(_settings.DisplayName, elements, _settings.Bounds, (elements != null) || _settings.Bounds.HasValue ? null : ctrl.AllPlayers, _settings.AlwaysPlay);
 					_sound.Gain = _settings.Volume;

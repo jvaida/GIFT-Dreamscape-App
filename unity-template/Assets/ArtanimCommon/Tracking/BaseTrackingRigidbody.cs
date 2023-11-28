@@ -117,8 +117,6 @@ namespace Artanim.Tracking
                         //Update rotation
                         if (UpdateRotation)
                             transform.localRotation = RigidbodyRotation;
-
-
                     }
 
                     //Track timeout

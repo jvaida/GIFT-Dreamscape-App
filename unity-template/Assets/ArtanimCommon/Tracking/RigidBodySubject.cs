@@ -184,7 +184,6 @@ namespace Artanim.Tracking
 		}
 
 
-		private bool LoggedVirtualWarning = false;
         public void UpdateTransform(uint frameNumber, Vector3 position, Quaternion rotation, bool isTracked, float trackingQuality = 0f)
 		{
 			//Check if virtual
@@ -245,14 +244,6 @@ namespace Artanim.Tracking
 
 				// Store tracking behavior
 				IsUpToDate = isUpToDate;
-			}
-			else
-            {
-				if(!LoggedVirtualWarning)
-                {
-					Debug.LogWarningFormat("Cannot update virtual rigidbody {0} with tracked data. To enable tracking on this rigidbody remove it from rigidbodies.xml.", Name);
-					LoggedVirtualWarning = true;
-                }
 			}
 		}
 

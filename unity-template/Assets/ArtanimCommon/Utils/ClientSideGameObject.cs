@@ -11,7 +11,7 @@ namespace Artanim
 	[AddComponentMenu("Artanim/Client Side GameObject")]
 	public class ClientSideGameObject : MonoBehaviour
 	{
-		void Awake()
+		virtual protected void Awake()
 		{
 			gameObject.SetActive(NetworkInterface.Instance.IsClient);
 		}

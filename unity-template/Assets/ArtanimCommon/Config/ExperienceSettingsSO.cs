@@ -131,6 +131,8 @@ namespace Artanim
         [Header("Standalone")]
         [Tooltip("Whether or not to disable standalone pickupable for TrackingRigidbody")]
         public bool DisableStandalonePickupables = false;
+		[Tooltip("Standalone avatar template. If not set the default SDK avatar is used")]
+		public GameObject StandaloneAvatarTemplate;
 
         /// ------------------------------------------------------------------------
         /// Teamspeak

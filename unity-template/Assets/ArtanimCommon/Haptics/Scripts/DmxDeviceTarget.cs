@@ -36,6 +36,9 @@ namespace Artanim.Haptics
         [Tooltip("Direction of the forward axis when PickBy is set to Angle")]
         public Axis ForwardAxis = Axis.Forward;
 
+        [Tooltip("Whether or not the global offset should be taken into account")]
+        public bool RelativeToGlobalOffset;
+
         // Used to monitor changes in the above properties
         int _currentCount;
         PodSide _currentSide = PodSide.None;
@@ -54,10 +57,10 @@ namespace Artanim.Haptics
             Muted = mute;
         }
 
-        void OnEanbled()
+        void OnEnable()
         {
             _ctrl = HapticsController.DmxDevicesController;
-            if (_ctrl) enabled = false;
+            if (_ctrl == null) enabled = false;
         }
 
         void OnDisable()
@@ -103,36 +106,36 @@ namespace Artanim.Haptics
                     if (_currentSide != Side)
                     {
                         _currentSide = Side;
-                        if (_ctrl)
-                        {
-                            _devices = _ctrl.GetDevices(_type, _currentSide);
-                        }
+                        _devices = _ctrl.GetDevices(_type, _currentSide);
                     }
 
                     Vector2 posOrDir;
                     if (PickBy == DevicePicker.PickMethod.Angle)
                     {
+                        Vector3 dir;
                         switch (ForwardAxis)
                         {
                             case Axis.Forward:
-                                posOrDir = new Vector2(transform.forward.x, transform.forward.z);
+                                dir = RelativeToGlobalOffset ? GlobalMocapOffset.Instance.UnOffsetDirection(transform.forward) : transform.forward;
                                 break;
                             case Axis.Backward:
-                                posOrDir = -new Vector2(transform.forward.x, transform.forward.z);
+                                dir = RelativeToGlobalOffset ? GlobalMocapOffset.Instance.UnOffsetDirection(-transform.forward) : -transform.forward;
                                 break;
                             case Axis.Left:
-                                posOrDir = new Vector2(transform.right.x, transform.right.z);
+                                dir = RelativeToGlobalOffset ? GlobalMocapOffset.Instance.UnOffsetDirection(transform.right) : transform.right;
                                 break;
                             case Axis.Right:
-                                posOrDir = -new Vector2(transform.right.x, transform.right.z);
+                                dir = RelativeToGlobalOffset ? GlobalMocapOffset.Instance.UnOffsetDirection(-transform.right) : -transform.right;
                                 break;
                             default:
                                 throw new System.InvalidOperationException("Unexpected value for ForwardAxis: " + ForwardAxis);
                         }
+                        posOrDir = new Vector2(dir.x, dir.z);
                     }
                     else
                     {
-                        posOrDir = new Vector2(transform.position.x, transform.position.z);
+                        var pos = RelativeToGlobalOffset ? GlobalMocapOffset.Instance.UnOffsetPosition(transform.position) : transform.position;
+                        posOrDir = new Vector2(pos.x, pos.z);
                     }
 
                     if (_devices != null)

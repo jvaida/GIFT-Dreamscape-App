@@ -16,7 +16,7 @@ namespace Artanim
 		[SerializeField]
 		bool DisableInStandalone = false;
 
-		void Awake()
+		virtual protected void Awake()
 		{
 			gameObject.SetActive(NetworkInterface.Instance.IsServer
 				&& (DevelopmentMode.CurrentMode != EDevelopmentMode.Standalone || !DisableInStandalone));

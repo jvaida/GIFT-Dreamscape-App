@@ -12,7 +12,7 @@ public abstract class ClientSideBehaviour : MonoBehaviour
 {
     public bool RunOnServer = true;
 
-    void Awake()
+    virtual protected void Awake()
     {
         enabled = RunOnServer || NetworkInterface.Instance.IsClient;
     }

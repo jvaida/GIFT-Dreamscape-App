@@ -20,8 +20,7 @@ namespace Artanim
 	/// </summary>
 	public class StandaloneController : MonoBehaviour
 	{
-		public const string RESOURCE_STANDALONE_AVATAR = "Avatars/PFB_Standalone Hand Controller";
-
+        public GameObject DefaultStandaloneAvatarTemplate;
 
 		private ExperienceClient ThisClient;
         private Session ThisSession;
@@ -46,6 +45,21 @@ namespace Artanim
                 SceneController.Instance.OnSceneLoaded -= Instance_OnSceneLoaded;
         }
 
+        public GameObject GetAvatarTemplate()
+        {
+            var template = ConfigService.Instance.ExperienceSettings.StandaloneAvatarTemplate;
+
+            if (template && !template.GetComponent<AvatarController>())
+            {
+                Debug.LogErrorFormat("The standalone avatar template configured does not have an AvatarController set. Template: {0}", template.name);
+                template = null;
+            }
+
+            if (!template)
+                template = DefaultStandaloneAvatarTemplate;
+
+            return template;
+        }
 
         void Initialize()
 		{

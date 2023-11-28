@@ -110,6 +110,7 @@ namespace Artanim
 		private TS3Controller TS3Controller;
 		private MumbleController MumbleController;
 		private OVRLipSyncController OVRLipSyncController;
+		private StandaloneController StandaloneController;
 
 		private class Avatar
 		{
@@ -149,7 +150,7 @@ namespace Artanim
 			if (DevelopmentMode.CurrentMode == EDevelopmentMode.Standalone)
 			{
 				//Create standalone controller
-				UnityUtils.InstantiatePrefab<StandaloneController>(StandaloneControllerTemplate, transform);
+				StandaloneController = UnityUtils.InstantiatePrefab<StandaloneController>(StandaloneControllerTemplate, transform);
 			}
 		}
 
@@ -1683,11 +1684,6 @@ namespace Artanim
 						AvatarResource = Avatar.Resource;
 					}
 
-					if(string.IsNullOrEmpty(AvatarResource) && DevelopmentMode.CurrentMode == EDevelopmentMode.Standalone)
-					{
-						AvatarResource = StandaloneController.RESOURCE_STANDALONE_AVATAR;
-					}
-
 					if (ConfigService.VerboseSdkLog)
 						Debug.LogFormat("<color=lightblue>Creating player: IsMainPlayer={0}, PlayerId={1}, PlayerIndex={2}, avatarResource={3}, SkeletonId={4}, SessionId={5}</color>",
 							mainPlayer, player.ComponentId, CurrentSession.Players.IndexOf(player), AvatarResource, player.SkeletonId, CurrentSession.SharedId);
@@ -1702,7 +1698,12 @@ namespace Artanim
 					player.PropertyChanged += OnPlayerPropertyChanged;
 
 					//Create
-					var avatarTemplate = Resources.Load<GameObject>(AvatarResource);
+					GameObject avatarTemplate;
+					if (string.IsNullOrEmpty(AvatarResource) && DevelopmentMode.CurrentMode == EDevelopmentMode.Standalone)
+						avatarTemplate = StandaloneController.GetAvatarTemplate();
+					else
+						avatarTemplate = Resources.Load<GameObject>(AvatarResource);
+
 					if (avatarTemplate)
 					{
 						avatarInstance = Instantiate(avatarTemplate);

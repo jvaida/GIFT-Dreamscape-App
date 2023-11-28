@@ -268,7 +268,7 @@ namespace Artanim
                 {
                     try
                     {
-                        var clientApiXml = Location.Config.SystemConfig.Instance.ClientApi;
+                        var clientApiXml = Location.Config.SystemConfig.Instance.HostessData.Dreamscape;
                         if (clientApiXml == null)
                         {
                             Debug.LogFormat("GameProgress: {0} doesn't have a ClientApi node", Location.Config.SystemConfig.Pathname);
