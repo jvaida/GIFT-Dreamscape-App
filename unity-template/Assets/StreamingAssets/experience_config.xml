@@ -9,11 +9,6 @@
 		<Scene SceneName="Trackables" />
 		<Scene SceneName="Timelines" />
 		<Scene SceneName="Movement" />
-		<Scene SceneName="Haptic test scene" />
-		<Scene SceneName="G2 Final" />
-		<Scene SceneName="DSCGroup3Scene" />
-		<Scene SceneName="SampleChooserScene-SequencedButtons" />
-		<Scene SceneName="Toothie" />
 	</StartScenes>
 	<Avatars>
 		<Avatar Name="Jack" AvatarResource="Avatars/PFB_Jack" RigName="Mixamo" />
