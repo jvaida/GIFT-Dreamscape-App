@@ -42,21 +42,28 @@
 
 ## Potential Dreamscape errors and respective fixes
 
-- `Assets\ArtanimCommon\Tracking\ViconConnector.cs(7,22): error CS0234: The type or namespace name 'Remoting' does not exist in the namespace 'System.Runtime' (are you missing an assembly reference?)`
-
+- ```
+    Assets\ArtanimCommon\Tracking\ViconConnector.cs(7,22): error CS0234: The type or namespace name 'Remoting' does not exist in the namespace 'System.Runtime' (are you missing an assembly reference?)
+    ```
     Change Build Settings> Player Settings>Player> Other Settings>API Compatibility Level  to **.NET 4.x**
 
 <br />
 
-- `Assets\ArtanimCommon\HandAnimation\Plugins\LeapMotion\Core\Scripts\Utils\Editor\Hotkeys.cs(122,91): error CS0619: 'SelectionMode.OnlyUserModifiable' is obsolete: ''OnlyUserModifiable' is obsolete. Use 'Editable' instead. (UnityUpgradeable) -> Editable`
+- ```
+    Assets\ArtanimCommon\HandAnimation\Plugins\LeapMotion\Core\Scripts\Utils\Editor\Hotkeys.cs(122,91): error CS0619: 'SelectionMode.OnlyUserModifiable' is obsolete: 'OnlyUserModifiable' is obsolete. Use 'Editable' instead. (UnityUpgradeable) -> Editable
+    ```
 
     Add to lines 25, 107, and 122 of `Hotkeys.cs`
 
-    - `// GameObject[] objs = Selection.GetFiltered&lt;GameObject>(SelectionMode.ExcludePrefab | SelectionMode.OnlyUserModifiable | SelectionMode.Editable);`<br />
-    `GameObject[] objs = Selection.GetFiltered&lt;GameObject>(SelectionMode.ExcludePrefab | SelectionMode.TopLevel | SelectionMode.Editable);`
+    - ```cs
+        // GameObject[] objs = Selection.GetFiltered&lt;GameObject>(SelectionMode.ExcludePrefab | SelectionMode.OnlyUserModifiable | SelectionMode.Editable);
+        GameObject[] objs = Selection.GetFiltered&lt;GameObject>(SelectionMode.ExcludePrefab | SelectionMode.TopLevel | SelectionMode.Editable);
+        ```
 
 <br />
 
-- `error CS0234: The type or namespace name 'SpatialTracking' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)`
+- ```
+    error CS0234: The type or namespace name 'SpatialTracking' does not exist in the namespace 'UnityEngine' (are you missing an assembly reference?)
+    ```
 
     Import the "XR Legacy Input Helpers" package from Window -> Package Manager.
