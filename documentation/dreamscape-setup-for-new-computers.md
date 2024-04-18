@@ -32,7 +32,7 @@
 
 <br />
 
-5. (if you haven't already) Download and install Unity 2019.4.40f LTS, along with Visual Studio.
+5. (if you haven't already) Download and install Unity 2021.3.37f LTS, along with Visual Studio.
 
 <br />
 
