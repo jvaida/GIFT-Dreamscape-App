@@ -5,7 +5,7 @@
 
 
 
-1. Download the [SDK zip file](https://drive.google.com/file/d/1BuzhEwBAGe3AE1CM7BVPcOtGjvmV2Bsb/view?usp=drive_link) and **extract **it somewhere onto your computer (Documents folder is good).
+1. Download the [SDK zip file](https://www.dropbox.com/s/jiaftnspbm09pda/SDK-6.5.9-20220902-092135.zip) and **extract **it somewhere onto your computer (Documents folder is good).
     1. **Do not distribute the SDK files outside of Meteor.**
     2. SDK files should be located in the same folder as this document if the link is broken
 
